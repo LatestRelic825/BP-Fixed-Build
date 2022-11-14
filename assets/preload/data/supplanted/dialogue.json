@@ -1,0 +1,53 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "That's it.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bambirage"
+		},
+		{
+			"expression": "talk",
+			"text": "YOU PISS ME OFF!!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambirage"
+		},
+		{
+			"expression": "talk",
+			"text": "I GONNA KILL YOU WITH dxdCORN!!xdxdxd",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambirage"
+		},
+		{
+			"expression": "talk",
+			"text": "bap blop skdoo bep-",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "NO!! I don't care what you say!!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambirage"
+		},
+		{
+			"expression": "talk",
+			"text": "I will end you here and now!!!!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambirage"
+		},
+		{
+			"expression": "talk",
+			"text": "Ugh...",
+			"boxState": "normal",
+			"speed": 0.04,
+			"portrait": "gfannoyed"
+		}
+	]
+}

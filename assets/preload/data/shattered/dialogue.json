@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "AUGH! Why you like this?!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bambiangry"
+		},
+		{
+			"expression": "talk",
+			"text": "You break my phone AND fucking steal corn!!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambiangry"
+		},
+		{
+			"expression": "talk",
+			"text": "Seriously?! We haven't even touched your corn!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gfannoyed"
+		},
+		{
+			"expression": "talk",
+			"text": "You literally broke your phone for no reason! And even Dave has been trying to tell you!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gfannoyed"
+		},
+		{
+			"expression": "talk",
+			"text": "NO!! He is LYING!! I watch you touch corn!! And I know what you going to do!!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambiangry"
+		},
+		{
+			"expression": "talk",
+			"text": "Listen-",
+			"boxState": "normal",
+			"speed": 0.04,
+			"portrait": "gfannoyed"
+		},
+		{
+			"expression": "talk",
+			"text": "SHUT UP!! Aughh... just rap already!",
+			"boxState": "angry",
+			"speed": 0.04,
+			"portrait": "bambiangry"
+		},
+		{
+			"expression": "talk",
+			"text": "beep bop",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		}
+	]
+}

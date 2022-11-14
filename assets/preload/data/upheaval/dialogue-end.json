@@ -1,0 +1,214 @@
+{
+	"dialogue": [
+		{
+			"expression": "shocked",
+			"text": "b..b..beep..",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "Boyfriend can hear Bambi and Dave muffling in the background. Boyfriend slowly wakes up.",
+			"boxState": "normal",
+			"portrait": "generic",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "HOLY CRAP!",
+			"boxState": "normal",
+			"portrait": "davepre-polygonized",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "Dave rushes to BF.",
+			"boxState": "normal",
+			"portrait": "generic",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "BAMBI! HE'S AWAKE!!",
+			"boxState": "normal",
+			"portrait": "davepre-polygonized",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "Holy shit! He is!!",
+			"boxState": "normal",
+			"portrait": "bambisad",
+			"speed": 0.5
+		},
+		{
+			"expression": "shocked",
+			"text": "B..bap boop sked..",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "What?",
+			"boxState": "normal",
+			"portrait": "daveworried",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "Oh... what the heck!!",
+			"boxState": "normal",
+			"portrait": "bambisad",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "You faint in the final song because I was a million degrees!!",
+			"boxState": "normal",
+			"portrait": "bambisad",
+			"speed": 0.5
+		},
+		{
+			"expression": "confused",
+			"text": "I fainted? No! I literally saw you turn 3D! You threatened to kill me! You even became a weird upheavaled black figure and I died!",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "(How is he speaking normally?-)",
+			"boxState": "normal",
+			"portrait": "daveconfused",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "Bambi! Is this really what happened?",
+			"boxState": "normal",
+			"portrait": "davebambi-week",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "NO!! I never become 3d, how do I even does that?",
+			"boxState": "normal",
+			"portrait": "bambimad",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "Wait, I know who you talking about!",
+			"boxState": "normal",
+			"portrait": "bambisad",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "Wait...",
+			"boxState": "normal",
+			"portrait": "daveworried",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "OH! That thing. Did he get into your mind or something?",
+			"boxState": "normal",
+			"portrait": "davepre-polygonized",
+			"speed": 0.5
+		},
+		{
+			"expression": "shock",
+			"text": "WHAT THING?",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "What did I expect, honestly. BF, I feel it's best to save this discussion for later.",
+			"boxState": "normal",
+			"portrait": "daveworried",
+			"speed": 0.5
+		},
+		{
+			"expression": "confused",
+			"text": "Okay, I guess...",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "Well, I sorry for making you faint. I was just mad and I really thought you steal corn.",
+			"boxState": "normal",
+			"portrait": "bambisad",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "Also, thanks Dave for new phone! I won't break again.",
+			"boxState": "normal",
+			"portrait": "bambigrin",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "(I doubt it-)",
+			"boxState": "normal",
+			"portrait": "davebambi-week",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "Alright, I'm glad you apologized. BF, do you want me to bring you to my house to rest?",
+			"boxState": "normal",
+			"portrait": "davehouse",
+			"speed": 0.5
+		},
+		{
+			"expression": "excited",
+			"text": "Yeah sure!",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "Okay! Well, Bambi, I'll see you later!",
+			"boxState": "normal",
+			"portrait": "davehouse",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "Bye guys!!",
+			"boxState": "normal",
+			"portrait": "bambigrin",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "Bye Bye!!",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.5
+		},
+		{
+			"expression": "confused",
+			"text": "(Wait, where's GF-)",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.5
+		},
+		{
+			"expression": "talk",
+			"text": "The end... ?",
+			"boxState": "normal",
+			"portrait": "generic",
+			"speed": 0.5
+		}
+	]
+}

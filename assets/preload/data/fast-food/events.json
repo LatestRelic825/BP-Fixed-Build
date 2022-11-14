@@ -1,0 +1,665 @@
+{
+	"song": {
+		"speed": 3.1,
+		"stage": "3dBurger",
+		"player1": "bf",
+		"player2": "bamburg",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Hide or Show HUD elements with Fade",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				5333.33333333333,
+				[
+					[
+						"Hide or Show HUD elements with Fade",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				10666.6666666667,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					],
+					[
+						"Flash effect",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				32000,
+				[
+					[
+						"Hide or Show HUD elements",
+						"2",
+						""
+					],
+					[
+						"Flash effect",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				53333.3333333334,
+				[
+					[
+						"Flash effect",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				74666.6666666667,
+				[
+					[
+						"Flash effect",
+						"0",
+						""
+					],
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				85333.3333333333,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				95999.9999999999,
+				[
+					[
+						"Flash effect",
+						"0",
+						""
+					],
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				106666.666666667,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					],
+					[
+						"Flash effect",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				112000,
+				[
+					[
+						"Quick note spin",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				117333.333333333,
+				[
+					[
+						"Quick note spin",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				122666.666666667,
+				[
+					[
+						"Quick note spin",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				128000,
+				[
+					[
+						"Quick note spin",
+						"0",
+						""
+					],
+					[
+						"Flash effect",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				138666.666666667,
+				[
+					[
+						"Flash effect",
+						"0",
+						""
+					],
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				149333.333333333,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				150666.666666667,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				152000,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				153333.333333333,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				154666.666666667,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				156000,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				157333.333333333,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				158666.666666667,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				160000,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					],
+					[
+						"Flash effect",
+						"",
+						""
+					],
+					[
+						"Add Camera Zoom",
+						"4",
+						"4"
+					]
+				]
+			],
+			[
+				166900,
+				[
+					[
+						"Add Camera Zoom",
+						"0.030",
+						"0.05"
+					]
+				]
+			],
+			[
+				169600,
+				[
+					[
+						"Add Camera Zoom",
+						"0.030",
+						"0.05"
+					]
+				]
+			],
+			[
+				170100,
+				[
+					[
+						"Add Camera Zoom",
+						"0.030",
+						"0.05"
+					]
+				]
+			],
+			[
+				172800,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				173200,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				173600,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				174000,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				174400,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				174800,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				175200,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				175600,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				176000,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				176400,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				176800,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				177200,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				177600,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				178000,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				178400,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				178800,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				179200,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				179600,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				180000,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				180400,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				180800,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				181200,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				181600,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				182000,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				182400,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				182800,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				183200,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				183600,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				184000,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				184400,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				184800,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				185200,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				185600,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				185604.166666667,
+				[
+					[
+						"Hide or Show HUD elements with Fade",
+						"0",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 180,
+		"arrowSkin": "polynote",
+		"needsVoices": true,
+		"isSkinSep": true,
+		"song": "Fast-Food"
+	}
+}

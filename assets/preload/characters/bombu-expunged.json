@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				330,
+				-20
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "downbomb",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				60
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "rightbomb",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				100,
+				450
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "upbomb",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				410,
+				70
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "leftbomb",
+			"indices": []
+		},
+		{
+			"offsets": [
+				120,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "bombuidle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bombu-Expunged",
+	"position": [
+		-200,
+		-100
+	],
+	"healthicon": "bombuExpunged",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		-630,
+		-335
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BaiburgBurger4.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="THEBURGER40000" x="0" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER40001" x="1138" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER40002" x="2276" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER40003" x="3414" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER40004" x="4552" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER40005" x="5690" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER40006" x="6828" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER40007" x="0" y="1218" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER40008" x="1138" y="1218" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER40009" x="2276" y="1218" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER40010" x="3414" y="1218" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER40011" x="4552" y="1218" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER40012" x="5690" y="1218" width="1138" height="1218"/>
+</TextureAtlas>

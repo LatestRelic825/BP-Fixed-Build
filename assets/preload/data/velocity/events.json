@@ -1,0 +1,270 @@
+{
+	"song": {
+		"speed": 3.2,
+		"stage": "3dFucked",
+		"player1": "bf",
+		"player2": "decimated",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Hide or Show HUD elements with Fade",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				9394.73684210526,
+				[
+					[
+						"Hide or Show HUD elements with Fade",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				10105.2631578947,
+				[
+					[
+						"Flash effect",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				10108.5526315789,
+				[
+					[
+						"Flash effect",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				40421.0526315789,
+				[
+					[
+						"Thunderstorm type black screen",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				50526.3157894737,
+				[
+					[
+						"Thunderstorm type black screen",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				65684.2105263157,
+				[
+					[
+						"Flash effect",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				66947.3684210526,
+				[
+					[
+						"Flash effect",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				68210.5263157894,
+				[
+					[
+						"Flash effect",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				69473.6842105263,
+				[
+					[
+						"Flash effect",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				77684.2105263157,
+				[
+					[
+						"Toggle Eyesores",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				78236.8421052631,
+				[
+					[
+						"Toggle Eyesores",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				80842.1052631578,
+				[
+					[
+						"Thunderstorm type black screen",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				90947.3684210525,
+				[
+					[
+						"Thunderstorm type black screen",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				106105.263157895,
+				[
+					[
+						"Toggle Eyesores",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				111157.894736842,
+				[
+					[
+						"Toggle Eyesores",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				121263.157894737,
+				[
+					[
+						"Thunderstorm type black screen",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				131368.421052631,
+				[
+					[
+						"Thunderstorm type black screen",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				136421.052631579,
+				[
+					[
+						"Flash effect",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				136425.986842105,
+				[
+					[
+						"Quick note spin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				141473.684210526,
+				[
+					[
+						"Toggle Eyesores",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				181901.315789474,
+				[
+					[
+						"Toggle Eyesores",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				192000,
+				[
+					[
+						"Change Character",
+						"1",
+						"dave-3d-new"
+					]
+				]
+			],
+			[
+				192003.289473685,
+				[
+					[
+						"Flash effect",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				192006.578947369,
+				[
+					[
+						"Flash effect",
+						"0",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 190,
+		"arrowSkin": "DATA_ERROR",
+		"needsVoices": false,
+		"isSkinSep": true,
+		"song": "Velocity"
+	}
+}

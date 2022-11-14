@@ -1,0 +1,39 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "You know what?!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambigod"
+		},
+		{
+			"expression": "talk",
+			"text": "You beat me in next 2 songs, I KILL YOU!!!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambigod"
+		},
+		{
+			"expression": "talk",
+			"text": "Because THIS IS IT!! YOU PISS ME OFF SO MUCH TO THE POINT WHERE I BECOME 3D!!!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambigod"
+		},
+		{
+			"expression": "confused",
+			"text": "beebap ske bop boop",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "SHUT UP!! YOU DONE FOR!!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambigod"
+		}
+	]
+}

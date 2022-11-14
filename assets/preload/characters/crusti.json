@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-1200,
+				-800
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "crusti idle"
+		},
+		{
+			"offsets": [
+				-965,
+				-816
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "crusti left"
+		},
+		{
+			"offsets": [
+				-1129,
+				-748
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "crusti down"
+		},
+		{
+			"offsets": [
+				-1369,
+				-813
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "crusti right"
+		},
+		{
+			"offsets": [
+				-1169,
+				-833
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "crusti up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Crusti",
+	"position": [
+		-2100,
+		-960
+	],
+	"healthicon": "crusti",
+	"flip_x": false,
+	"healthbar_colors": [
+		220,
+		80,
+		0
+	],
+	"camera_position": [
+		-140,
+		140
+	],
+	"sing_duration": 4,
+	"scale": 2.3
+}

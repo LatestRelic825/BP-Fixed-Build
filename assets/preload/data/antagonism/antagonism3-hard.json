@@ -1,0 +1,16 @@
+{
+	"song": {
+		"player1": "bf",
+		"notes": [],
+		"player2": "expunged",
+		"player3": "gf",
+		"song": "Antagonism",
+		"needsVoices": true,
+		"validScore": true,
+		"arrowSkin": "polynote",
+		"stage": "3dBurger",
+		"isSkinSep": true,
+		"bpm": 250.5,
+		"speed": 3.4
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				156,
+				159
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "trueexpungedidle"
+		},
+		{
+			"offsets": [
+				156,
+				157
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "trueexpungedtransition"
+		},
+		{
+			"offsets": [
+				225,
+				47
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "trueexpungedleft"
+		},
+		{
+			"offsets": [
+				-370,
+				19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "trueexpungedright"
+		},
+		{
+			"offsets": [
+				-190,
+				-86
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "trueexpungeddown"
+		},
+		{
+			"offsets": [
+				-190,
+				170
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "trueexpungedup"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/TrueExpunged",
+	"position": [
+		-530,
+		-300
+	],
+	"healthicon": "bambiExpunged",
+	"flip_x": false,
+	"healthbar_colors": [
+		31,
+		19,
+		17
+	],
+	"camera_position": [
+		-100,
+		-450
+	],
+	"sing_duration": 4,
+	"scale": 1.7
+}

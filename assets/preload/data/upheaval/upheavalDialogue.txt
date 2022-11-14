@@ -1,0 +1,9 @@
+setfont_normal:bf:Beep?
+setfont_code:expunged:BOYFRIEND
+:expunged:WAKE UP
+:expunged:THIS IS ONLY YOUR IMAGINATION
+:expunged:I'M TIRED OF PRETENDING
+:expunged:THEY'RE WAITING
+:expunged:WAKE UP FROM THIS PURGATORY
+:expunged:BEFORE I GET AHEAD OF MYSELF
+setfont_normal:bf:B-beep..?

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DavePre-Polygonized_Dialogue.png">
+	<SubTexture name="Talk0000" x="0" y="0" width="550" height="850"/>
+</TextureAtlas>

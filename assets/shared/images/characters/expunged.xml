@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="expunged.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="20" y="20" width="811" height="654"/>
+	<SubTexture name="down0001" x="868" y="20" width="811" height="654"/>
+	<SubTexture name="down0002" x="1716" y="20" width="811" height="654"/>
+	<SubTexture name="down0003" x="2564" y="20" width="811" height="654"/>
+	<SubTexture name="idle0000" x="20" y="711" width="907" height="648"/>
+	<SubTexture name="idle0001" x="964" y="711" width="907" height="648"/>
+	<SubTexture name="idle0002" x="1908" y="711" width="907" height="648"/>
+	<SubTexture name="idle0003" x="2852" y="711" width="907" height="648"/>
+	<SubTexture name="idle0004" x="20" y="1396" width="907" height="648"/>
+	<SubTexture name="idle0005" x="964" y="1396" width="907" height="648"/>
+	<SubTexture name="idle0006" x="1908" y="1396" width="907" height="648"/>
+	<SubTexture name="left0000" x="2852" y="1396" width="1001" height="626"/>
+	<SubTexture name="left0001" x="20" y="2081" width="1001" height="626"/>
+	<SubTexture name="left0002" x="1058" y="2081" width="1001" height="626"/>
+	<SubTexture name="left0003" x="2096" y="2081" width="1001" height="626"/>
+	<SubTexture name="right0000" x="3134" y="2081" width="885" height="622"/>
+	<SubTexture name="right0001" x="20" y="2744" width="885" height="622"/>
+	<SubTexture name="right0002" x="942" y="2744" width="885" height="622"/>
+	<SubTexture name="right0003" x="1864" y="2744" width="885" height="622"/>
+	<SubTexture name="up0000" x="2786" y="2744" width="805" height="625"/>
+	<SubTexture name="up0001" x="20" y="3406" width="805" height="625"/>
+	<SubTexture name="up0002" x="862" y="3406" width="805" height="625"/>
+	<SubTexture name="up0003" x="1704" y="3406" width="805" height="625"/>
+</TextureAtlas>

@@ -1,0 +1,580 @@
+{
+	"song": {
+		"speed": 3.7,
+		"stage": "3dFucked",
+		"player1": "bf",
+		"player2": "expunged",
+		"player3": null,
+		"events": [
+			[
+				165161.29032258,
+				[
+					[
+						"Play Animation",
+						"singLEFT",
+						"BF"
+					]
+				]
+			],
+			[
+				165419.354838709,
+				[
+					[
+						"Play Animation",
+						"singLEFT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				165677.419354838,
+				[
+					[
+						"Play Animation",
+						"singLEFT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				165935.483870967,
+				[
+					[
+						"Play Animation",
+						"singLEFT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				166193.548387096,
+				[
+					[
+						"Play Animation",
+						"singLEFT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				166451.612903225,
+				[
+					[
+						"Play Animation",
+						"singLEFT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				166709.677419354,
+				[
+					[
+						"Play Animation",
+						"singLEFT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				166967.741935483,
+				[
+					[
+						"Play Animation",
+						"singLEFT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				167225.806451612,
+				[
+					[
+						"Play Animation",
+						"singUP",
+						"BF"
+					]
+				]
+			],
+			[
+				167483.870967741,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				167741.93548387,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				167999.999999999,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				168258.064516129,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				168516.129032258,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				168774.193548387,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				169032.258064516,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				169290.322580645,
+				[
+					[
+						"Play Animation",
+						"singDOWN",
+						"BF"
+					]
+				]
+			],
+			[
+				169548.387096774,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				169806.451612903,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				170064.516129032,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				170322.580645161,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				170580.64516129,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				170838.709677419,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				171096.774193548,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				171354.838709677,
+				[
+					[
+						"Play Animation",
+						"singRIGHT",
+						"BF"
+					]
+				]
+			],
+			[
+				171612.903225806,
+				[
+					[
+						"Play Animation",
+						"singRIGHT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				171870.967741935,
+				[
+					[
+						"Play Animation",
+						"singRIGHT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				172129.032258064,
+				[
+					[
+						"Play Animation",
+						"singRIGHT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				172387.096774193,
+				[
+					[
+						"Play Animation",
+						"singDOWN",
+						"BF"
+					]
+				]
+			],
+			[
+				172645.161290322,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				172903.225806451,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				173161.29032258,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				173419.354838709,
+				[
+					[
+						"Play Animation",
+						"singRIGHT",
+						"BF"
+					]
+				]
+			],
+			[
+				173677.419354838,
+				[
+					[
+						"Play Animation",
+						"singRIGHT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				173935.483870967,
+				[
+					[
+						"Play Animation",
+						"singRIGHT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				174193.548387096,
+				[
+					[
+						"Play Animation",
+						"singRIGHT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				174451.612903225,
+				[
+					[
+						"Play Animation",
+						"singRIGHT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				174709.677419354,
+				[
+					[
+						"Play Animation",
+						"singRIGHT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				174967.741935483,
+				[
+					[
+						"Play Animation",
+						"singRIGHT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				175225.806451612,
+				[
+					[
+						"Play Animation",
+						"singRIGHT-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				175483.870967741,
+				[
+					[
+						"Play Animation",
+						"singUP",
+						"BF"
+					]
+				]
+			],
+			[
+				175741.93548387,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				175999.999999999,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				176258.064516128,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				176516.129032257,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				176774.193548387,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				177032.258064516,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				177290.322580645,
+				[
+					[
+						"Play Animation",
+						"singUP-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				177548.387096774,
+				[
+					[
+						"Play Animation",
+						"singDOWN",
+						"BF"
+					]
+				]
+			],
+			[
+				177806.451612903,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				178064.516129032,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				178322.580645161,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				178580.64516129,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				178838.709677419,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				179096.774193548,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			],
+			[
+				179354.838709677,
+				[
+					[
+						"Play Animation",
+						"singDOWN-loop",
+						"BF"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 465,
+		"arrowSkin": "DATA_ERROR",
+		"needsVoices": true,
+		"isSkinSep": true,
+		"song": "LACUNA"
+	}
+}

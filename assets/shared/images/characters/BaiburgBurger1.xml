@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BaiburgBurger1.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="THEBURGER10000" x="0" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10001" x="1138" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10002" x="2276" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10003" x="3414" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10004" x="4552" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10005" x="5690" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10006" x="6828" y="0" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10007" x="0" y="1218" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10008" x="1138" y="1218" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10009" x="2276" y="1218" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10010" x="3414" y="1218" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10011" x="4552" y="1218" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10012" x="5690" y="1218" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10013" x="6828" y="1218" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10014" x="0" y="2436" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10015" x="1138" y="2436" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10016" x="2276" y="2436" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10017" x="3414" y="2436" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10018" x="4552" y="2436" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10019" x="5690" y="2436" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10020" x="6828" y="2436" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10021" x="0" y="3654" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10022" x="1138" y="3654" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10023" x="2276" y="3654" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10024" x="3414" y="3654" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10025" x="4552" y="3654" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10026" x="5690" y="3654" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10027" x="6828" y="3654" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10028" x="0" y="4872" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10029" x="1138" y="4872" width="1138" height="1218"/>
+	<SubTexture name="THEBURGER10030" x="2276" y="4872" width="1138" height="1218"/>
+	<SubTexture name="ABURGER0000" x="0" y="6090" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0001" x="1138" y="6090" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0002" x="2276" y="6090" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0003" x="3414" y="6090" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0004" x="4552" y="6090" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0005" x="5690" y="6090" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0006" x="6828" y="6090" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0007" x="0" y="7308" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0008" x="1138" y="7308" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0009" x="2276" y="7308" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0010" x="3414" y="7308" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0011" x="4552" y="7308" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0012" x="5690" y="7308" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0013" x="6828" y="7308" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0014" x="0" y="8526" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0015" x="1138" y="8526" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0016" x="2276" y="8526" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0017" x="3414" y="8526" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0018" x="4552" y="8526" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="ABURGER0019" x="5690" y="8526" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1168" frameHeight="1224"/>
+	<SubTexture name="WOWBURGER0000" x="0" y="9744" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0001" x="1138" y="9744" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0002" x="2276" y="9744" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0003" x="3414" y="9744" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0004" x="4552" y="9744" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0005" x="5690" y="9744" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0006" x="6828" y="9744" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0007" x="0" y="10962" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0008" x="1138" y="10962" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0009" x="2276" y="10962" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0010" x="3414" y="10962" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0011" x="4552" y="10962" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0012" x="5690" y="10962" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0013" x="6828" y="10962" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0014" x="0" y="12180" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0015" x="1138" y="12180" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0016" x="2276" y="12180" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0017" x="3414" y="12180" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0018" x="4552" y="12180" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0019" x="5690" y="12180" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0020" x="6828" y="12180" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0021" x="0" y="13398" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0022" x="1138" y="13398" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0023" x="2276" y="13398" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0024" x="3414" y="13398" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0025" x="4552" y="13398" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0026" x="5690" y="13398" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0027" x="6828" y="13398" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0028" x="0" y="14616" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0029" x="1138" y="14616" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0030" x="2276" y="14616" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0031" x="3414" y="14616" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0032" x="4552" y="14616" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0033" x="5690" y="14616" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="WOWBURGER0034" x="6828" y="14616" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="BURGER0000" x="0" y="15834" width="1138" height="1218"/>
+	<SubTexture name="BURGER0001" x="1138" y="15834" width="1138" height="1218"/>
+	<SubTexture name="BURGER0002" x="2276" y="15834" width="1138" height="1218"/>
+	<SubTexture name="BURGER0003" x="3414" y="15834" width="1138" height="1218"/>
+	<SubTexture name="BURGER0004" x="4552" y="15834" width="1138" height="1218"/>
+	<SubTexture name="BURGER0005" x="5690" y="15834" width="1138" height="1218"/>
+	<SubTexture name="BURGER0006" x="6828" y="15834" width="1138" height="1218"/>
+	<SubTexture name="BURGER0007" x="0" y="17052" width="1138" height="1218"/>
+	<SubTexture name="BURGER0008" x="1138" y="17052" width="1138" height="1218"/>
+	<SubTexture name="BURGER0009" x="2276" y="17052" width="1138" height="1218"/>
+	<SubTexture name="BURGER0010" x="3414" y="17052" width="1138" height="1218"/>
+	<SubTexture name="BURGER0011" x="4552" y="17052" width="1138" height="1218"/>
+	<SubTexture name="BURGER0012" x="5690" y="17052" width="1138" height="1218"/>
+</TextureAtlas>

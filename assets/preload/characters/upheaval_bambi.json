@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-9,
+				10
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bamber left"
+		},
+		{
+			"offsets": [
+				80,
+				-10
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "bamber down"
+		},
+		{
+			"offsets": [
+				-6,
+				50
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singUP",
+			"indices": [],
+			"name": "bamber up"
+		},
+		{
+			"offsets": [
+				-170,
+				0
+			],
+			"loop": true,
+			"fps": 11,
+			"anim": "idle",
+			"indices": [],
+			"name": "bamber idle"
+		},
+		{
+			"offsets": [
+				0,
+				27
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "bamber right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/upheaval_bambi",
+	"position": [
+		-100,
+		50
+	],
+	"healthicon": "upheaval_bambi",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		40,
+		46
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1.7
+}

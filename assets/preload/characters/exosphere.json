@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "exosphere left"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "exosphere down"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "exosphere up"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "Swing",
+			"indices": [],
+			"name": "exosphere swing"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "exosphere right"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": true,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "exosphere idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/exosphere",
+	"position": [
+		-650,
+		-290
+	],
+	"healthicon": "exosphereinsanity",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		390,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

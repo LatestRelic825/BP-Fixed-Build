@@ -1,0 +1,70 @@
+{
+	"song": {
+		"speed": 3.4,
+		"stage": "3dFucked",
+		"player1": "bf",
+		"player2": "expunged-new",
+		"player3": null,
+		"events": [
+			[
+				168729.952682049,
+				[
+					[
+						"Change Character",
+						"1",
+						"baiburg"
+					],
+					[
+						"Flash effect",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				356481.303128009,
+				[
+					[
+						"Flash effect",
+						"2",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"BaiburgAscend"
+					]
+				]
+			],
+			[
+				417858.54863699,
+				[
+					[
+						"Change Character",
+						"1",
+						"decimated"
+					]
+				]
+			],
+			[
+				601810.64444537,
+				[
+					[
+						"Change Character",
+						"1",
+						"expunged-new"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 250.5,
+		"arrowSkin": "DATA_ERROR",
+		"needsVoices": false,
+		"isSkinSep": true,
+		"song": "Antagonism-11-minutes"
+	}
+}

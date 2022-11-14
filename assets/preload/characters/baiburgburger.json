@@ -1,0 +1,67 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 30,
+			"anim": "Cough",
+			"loop": false,
+			"name": "COUGH"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 35,
+			"anim": "Ate",
+			"loop": false,
+			"name": "ATE"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 35,
+			"anim": "Eat",
+			"loop": false,
+			"name": "EAT"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 30,
+			"anim": "Eating",
+			"loop": false,
+			"name": "EATING"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BaiburgBurger",
+	"position": [
+		-580,
+		-360
+	],
+	"healthicon": "baiburg",
+	"flip_x": false,
+	"healthbar_colors": [
+		155,
+		2,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}

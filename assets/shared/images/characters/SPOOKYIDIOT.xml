@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spooky.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="0" y="0" width="283" height="374" frameX="0" frameY="0" frameWidth="283" frameHeight="379"/>
+	<SubTexture name="idle0000" x="849" y="0" width="283" height="374"/>
+	<SubTexture name="left0000" x="1132" y="0" width="341" height="429" frameX="-8" frameY="-1" frameWidth="356" frameHeight="431"/>
+	<SubTexture name="right0000" x="0" y="431" width="294" height="410" frameX="-13" frameY="-2" frameWidth="315" frameHeight="413"/>
+	<SubTexture name="up0000" x="914" y="431" width="283" height="380" frameX="0" frameY="-10" frameWidth="283" frameHeight="406"/>
+</TextureAtlas>

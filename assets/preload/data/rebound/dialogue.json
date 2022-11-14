@@ -1,0 +1,39 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "WELCOME TO YOUR DEATH, HAHA!!!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambigod"
+		},
+		{
+			"expression": "talk",
+			"text": "I ASCEND TO 3D!!!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambigod"
+		},
+		{
+			"expression": "talk",
+			"text": "I GONNA BEAT YOU AT YOU OWN GAME AND YOU ARE GONNA DIE!!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambigod"
+		},
+		{
+			"expression": "confused",
+			"text": "boop skeep pap bloop..",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "FUCK YOU!!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bambigod"
+		}
+	]
+}

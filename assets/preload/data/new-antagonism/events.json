@@ -1,0 +1,115 @@
+{
+	"song": {
+		"speed": 3.1,
+		"stage": "3dFucked",
+		"player1": "bf",
+		"player2": "expunged",
+		"player3": null,
+		"events": [
+			[
+				124517.678812415,
+				[
+					[
+						"Change Character",
+						"1",
+						"baiburgburger"
+					],
+					[
+						"Play Animation",
+						"Eat",
+						"baiburgburger"
+					]
+				]
+			],
+			[
+				126851.012145749,
+				[
+					[
+						"Play Animation",
+						"Cough",
+						"baiburgburger"
+					]
+				]
+			],
+			[
+				127184.345479082,
+				[
+					[
+						"Change Character",
+						"1",
+						"baiburg"
+					]
+				]
+			],
+			[
+				214684.345479083,
+				[
+					[
+						"Change Character",
+						"1",
+						"baiburgburger"
+					],
+					[
+						"Play Animation",
+						"Ate",
+						"baiburgburger"
+					]
+				]
+			],
+			[
+				215184.345479083,
+				[
+					[
+						"Change Character",
+						"1",
+						"baiburg"
+					]
+				]
+			],
+			[
+				273851.01214575,
+				[
+					[
+						"Change Character",
+						"1",
+						"baiburgburger"
+					],
+					[
+						"Play Animation",
+						"Eat",
+						"baiburgburger"
+					]
+				]
+			],
+			[
+				276184.345479083,
+				[
+					[
+						"Play Animation",
+						"Cough",
+						"baiburgburger"
+					]
+				]
+			],
+			[
+				276517.678812416,
+				[
+					[
+						"Change Character",
+						"1",
+						"baiburg"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 200,
+		"arrowSkin": null,
+		"needsVoices": false,
+		"isSkinSep": true,
+		"song": "New-Antagonism"
+	}
+}

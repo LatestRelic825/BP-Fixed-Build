@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "confused",
+			"text": "Beep?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Qk9ZRlJJRU5E",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "god-expunged"
+		},
+		{
+			"expression": "talk",
+			"text": "V0FLRSBVUA==",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "god-expunged"
+		},
+		{
+			"expression": "talk",
+			"text": "VEhJUyBJUyBPTkxZIFlPVVIgSU1BR0lOQVRJT04=",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "god-expunged"
+		},
+		{
+			"expression": "talk",
+			"text": "SSdNIFRJUkVEIE9GIFBSRVRFTkRJTkc=",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "god-expunged"
+		},
+		{
+			"expression": "talk",
+			"text": "V0FLRSBVUCBGUk9NIFRISVMgUFVSR0FUT1JZ",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "god-expunged"
+		},
+		{
+			"expression": "talk",
+			"text": "QkVGT1JFIEkgR0VUIEFIRUFEIE9GIE1ZU0VMRg==",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "god-expunged"
+		},
+		{
+			"expression": "confused",
+			"text": "B-beep..?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		}
+	]
+}

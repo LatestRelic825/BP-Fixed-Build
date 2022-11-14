@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bombu-Expunged.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bombuidle0000" x="0" y="0" width="1200" height="900"/>
+	<SubTexture name="bombuidle0001" x="0" y="0" width="1200" height="900"/>
+	<SubTexture name="bombuidle0002" x="1200" y="0" width="1200" height="900"/>
+	<SubTexture name="bombuidle0003" x="1200" y="0" width="1200" height="900"/>
+	<SubTexture name="bombuidle0004" x="2400" y="0" width="1200" height="900"/>
+	<SubTexture name="bombuidle0005" x="2400" y="0" width="1200" height="900"/>
+	<SubTexture name="bombuidle0006" x="3600" y="0" width="1200" height="900"/>
+	<SubTexture name="bombuidle0007" x="3600" y="0" width="1200" height="900"/>
+	<SubTexture name="downbomb0000" x="4800" y="0" width="1588" height="1228"/>
+	<SubTexture name="downbomb0001" x="4800" y="0" width="1588" height="1228"/>
+	<SubTexture name="downbomb0002" x="6388" y="0" width="1588" height="1228"/>
+	<SubTexture name="downbomb0003" x="6388" y="0" width="1588" height="1228"/>
+	<SubTexture name="downbomb0004" x="0" y="1228" width="1588" height="1228"/>
+	<SubTexture name="downbomb0005" x="0" y="1228" width="1588" height="1228"/>
+	<SubTexture name="downbomb0006" x="1588" y="1228" width="1588" height="1228"/>
+	<SubTexture name="downbomb0007" x="1588" y="1228" width="1588" height="1228"/>
+	<SubTexture name="downbomb0008" x="1588" y="1228" width="1588" height="1228"/>
+	<SubTexture name="downbomb0009" x="1588" y="1228" width="1588" height="1228"/>
+	<SubTexture name="downbomb0010" x="1588" y="1228" width="1588" height="1228"/>
+	<SubTexture name="downbomb0011" x="1588" y="1228" width="1588" height="1228"/>
+	<SubTexture name="downbomb0012" x="1588" y="1228" width="1588" height="1228"/>
+	<SubTexture name="downbomb0013" x="1588" y="1228" width="1588" height="1228"/>
+	<SubTexture name="downbomb0014" x="1588" y="1228" width="1588" height="1228"/>
+	<SubTexture name="leftbomb0000" x="3176" y="1228" width="1469" height="1031"/>
+	<SubTexture name="leftbomb0001" x="3176" y="1228" width="1469" height="1031"/>
+	<SubTexture name="leftbomb0002" x="4645" y="1228" width="1469" height="1031"/>
+	<SubTexture name="leftbomb0003" x="4645" y="1228" width="1469" height="1031"/>
+	<SubTexture name="leftbomb0004" x="6114" y="1228" width="1469" height="1031"/>
+	<SubTexture name="leftbomb0005" x="6114" y="1228" width="1469" height="1031"/>
+	<SubTexture name="rightbomb0000" x="0" y="2456" width="1465" height="993"/>
+	<SubTexture name="rightbomb0001" x="0" y="2456" width="1465" height="993"/>
+	<SubTexture name="rightbomb0002" x="1465" y="2456" width="1465" height="993"/>
+	<SubTexture name="rightbomb0003" x="1465" y="2456" width="1465" height="993"/>
+	<SubTexture name="rightbomb0004" x="2930" y="2456" width="1465" height="993"/>
+	<SubTexture name="rightbomb0005" x="2930" y="2456" width="1465" height="993"/>
+	<SubTexture name="upbomb0000" x="4395" y="2456" width="1200" height="1306"/>
+	<SubTexture name="upbomb0001" x="4395" y="2456" width="1200" height="1306"/>
+	<SubTexture name="upbomb0002" x="5595" y="2456" width="1200" height="1306"/>
+	<SubTexture name="upbomb0003" x="5595" y="2456" width="1200" height="1306"/>
+	<SubTexture name="upbomb0004" x="6795" y="2456" width="1200" height="1306"/>
+	<SubTexture name="upbomb0005" x="6795" y="2456" width="1200" height="1306"/>
+</TextureAtlas>

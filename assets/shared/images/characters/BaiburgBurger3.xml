@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BaiburgBurger3.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="THEBURGER30000" x="0" y="0" width="1138" height="1218" frameX="-2" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30001" x="1138" y="0" width="1138" height="1218" frameX="-2" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30002" x="2276" y="0" width="1138" height="1218" frameX="-2" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30003" x="3414" y="0" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30004" x="4552" y="0" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30005" x="5690" y="0" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30006" x="6828" y="0" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30007" x="0" y="1218" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30008" x="1138" y="1218" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30009" x="2276" y="1218" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30010" x="3414" y="1218" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30011" x="4552" y="1218" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30012" x="5690" y="1218" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30013" x="6828" y="1218" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30014" x="0" y="2436" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30015" x="1138" y="2436" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30016" x="2276" y="2436" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30017" x="3414" y="2436" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30018" x="4552" y="2436" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30019" x="5690" y="2436" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30020" x="6828" y="2436" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30021" x="0" y="3654" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30022" x="1138" y="3654" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30023" x="2276" y="3654" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30024" x="3414" y="3654" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30025" x="4552" y="3654" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30026" x="5690" y="3654" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30027" x="6828" y="3654" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30028" x="0" y="4872" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30029" x="1138" y="4872" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30030" x="2276" y="4872" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30031" x="3414" y="4872" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30032" x="4552" y="4872" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30033" x="5690" y="4872" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+	<SubTexture name="THEBURGER30034" x="6828" y="4872" width="1138" height="1218" frameX="0" frameY="0" frameWidth="1140" frameHeight="1218"/>
+</TextureAtlas>

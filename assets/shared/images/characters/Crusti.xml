@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Crusti.png"><SubTexture name="crusti idle0000" x="2162" y="787" width="434" height="374" frameX="-746" frameY="-337" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti idle0001" x="2722" y="1917" width="435" height="375" frameX="-745" frameY="-337" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti idle0002" x="2162" y="1535" width="449" height="373" frameX="-735" frameY="-339" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti idle0003" x="496" y="2430" width="486" height="369" frameX="-709" frameY="-343" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti idle0004" x="2162" y="0" width="560" height="396" frameX="-656" frameY="-328" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti idle0005" x="2162" y="396" width="552" height="391" frameX="-662" frameY="-330" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti idle0006" x="0" y="2430" width="496" height="371" frameX="-702" frameY="-341" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti idle0007" x="2162" y="1161" width="441" height="374" frameX="-741" frameY="-338" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti idle0008" x="2162" y="787" width="434" height="374" frameX="-746" frameY="-337" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti idle0009" x="2162" y="787" width="434" height="374" frameX="-746" frameY="-337" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti idle0010" x="2162" y="787" width="434" height="374" frameX="-746" frameY="-337" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti idle0011" x="2162" y="787" width="434" height="374" frameX="-746" frameY="-337" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti left0000" x="1209" y="2036" width="683" height="384" frameX="-522" frameY="-332" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti left0001" x="1892" y="2036" width="681" height="384" frameX="-523" frameY="-332" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti left0002" x="2722" y="0" width="671" height="384" frameX="-532" frameY="-332" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti left0003" x="2722" y="1152" width="642" height="383" frameX="-556" frameY="-333" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti left0004" x="2722" y="384" width="584" height="384" frameX="-604" frameY="-331" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti left0005" x="2722" y="768" width="584" height="384" frameX="-604" frameY="-331" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti left0006" x="2722" y="768" width="584" height="384" frameX="-604" frameY="-331" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti left0007" x="2722" y="768" width="584" height="384" frameX="-604" frameY="-331" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti down0000" x="495" y="623" width="669" height="456" frameX="-616" frameY="-420" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti down0001" x="1497" y="0" width="665" height="454" frameX="-618" frameY="-421" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti down0002" x="588" y="1167" width="640" height="434" frameX="-634" frameY="-430" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti down0003" x="593" y="2036" width="616" height="393" frameX="-651" frameY="-443" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti down0004" x="982" y="2430" width="587" height="316" frameX="-669" frameY="-467" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti down0005" x="982" y="2430" width="587" height="316" frameX="-669" frameY="-467" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti down0006" x="982" y="2430" width="587" height="316" frameX="-669" frameY="-467" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti down0007" x="982" y="2430" width="587" height="316" frameX="-669" frameY="-467" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti up0000" x="0" y="0" width="500" height="623" frameX="-720" frameY="-56" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti up0001" x="500" y="0" width="499" height="621" frameX="-721" frameY="-58" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti up0002" x="999" y="0" width="498" height="601" frameX="-720" frameY="-73" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti up0003" x="0" y="623" width="495" height="544" frameX="-720" frameY="-116" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti up0004" x="1228" y="1167" width="483" height="431" frameX="-725" frameY="-204" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti up0005" x="0" y="1605" width="483" height="431" frameX="-725" frameY="-204" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti up0006" x="483" y="1605" width="483" height="431" frameX="-725" frameY="-204" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti up0007" x="966" y="1605" width="483" height="431" frameX="-725" frameY="-204" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti right0000" x="1497" y="454" width="588" height="440" frameX="-637" frameY="-272" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti right0001" x="0" y="1167" width="588" height="438" frameX="-638" frameY="-274" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti right0002" x="1449" y="1605" width="590" height="426" frameX="-643" frameY="-285" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti right0003" x="0" y="2036" width="593" height="394" frameX="-657" frameY="-314" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti right0004" x="2722" y="1535" width="591" height="382" frameX="-686" frameY="-336" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="crusti right0005" x="2722" y="1535" width="591" height="382" frameX="-686" frameY="-336" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

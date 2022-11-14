@@ -1,0 +1,30 @@
+{
+	"songs": [
+		[
+			"test",
+			"bf-pixel",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekCharacters": [
+		"bf-pixel",
+		"bf-pixel",
+		"gf"
+	],
+	"storyName": "Example",
+	"weekName": "Example",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

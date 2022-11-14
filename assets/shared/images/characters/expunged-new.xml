@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="expunged.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="downex0000" x="0" y="0" width="844" height="851"/>
+	<SubTexture name="downex0001" x="844" y="0" width="844" height="851"/>
+	<SubTexture name="downex0002" x="1688" y="0" width="844" height="851"/>
+	<SubTexture name="downex0003" x="2532" y="0" width="844" height="851"/>
+	<SubTexture name="downex0004" x="3376" y="0" width="844" height="851"/>
+	<SubTexture name="downex0005" x="4220" y="0" width="844" height="851"/>
+	<SubTexture name="exidle0000" x="5064" y="0" width="596" height="851"/>
+	<SubTexture name="exidle0001" x="5660" y="0" width="596" height="851"/>
+	<SubTexture name="exidle0002" x="6256" y="0" width="596" height="851"/>
+	<SubTexture name="exidle0003" x="6852" y="0" width="596" height="851"/>
+	<SubTexture name="exidle0004" x="7448" y="0" width="596" height="851"/>
+	<SubTexture name="exidle0005" x="0" y="851" width="596" height="851"/>
+	<SubTexture name="exidle0006" x="596" y="851" width="596" height="851"/>
+	<SubTexture name="exidle0007" x="1192" y="851" width="596" height="851"/>
+	<SubTexture name="exidle0008" x="1788" y="851" width="596" height="851"/>
+	<SubTexture name="exidle0009" x="2384" y="851" width="596" height="851"/>
+	<SubTexture name="exidle0010" x="2980" y="851" width="596" height="851"/>
+	<SubTexture name="exidle0011" x="3576" y="851" width="596" height="851"/>
+	<SubTexture name="exidle0012" x="4172" y="851" width="596" height="851"/>
+	<SubTexture name="exidle0013" x="4768" y="851" width="596" height="851"/>
+	<SubTexture name="exidle0014" x="5364" y="851" width="596" height="851"/>
+	<SubTexture name="exidle0015" x="5960" y="851" width="596" height="851"/>
+	<SubTexture name="exidle0016" x="6556" y="851" width="596" height="851"/>
+	<SubTexture name="exidle0017" x="7152" y="851" width="596" height="851"/>
+	<SubTexture name="exidle0018" x="0" y="1702" width="596" height="851"/>
+	<SubTexture name="exidle0019" x="596" y="1702" width="596" height="851"/>
+	<SubTexture name="exidle0020" x="1192" y="1702" width="596" height="851"/>
+	<SubTexture name="exidle0021" x="1788" y="1702" width="596" height="851"/>
+	<SubTexture name="leftex0000" x="2384" y="1702" width="1016" height="851"/>
+	<SubTexture name="leftex0001" x="3400" y="1702" width="1016" height="851"/>
+	<SubTexture name="leftex0002" x="4416" y="1702" width="1016" height="851"/>
+	<SubTexture name="leftex0003" x="5432" y="1702" width="1016" height="851"/>
+	<SubTexture name="leftex0004" x="6448" y="1702" width="1016" height="851"/>
+	<SubTexture name="leftex0005" x="0" y="2553" width="1016" height="851"/>
+	<SubTexture name="leftex0006" x="1016" y="2553" width="1016" height="851"/>
+	<SubTexture name="leftex0007" x="2032" y="2553" width="1016" height="851"/>
+	<SubTexture name="rightex0000" x="3048" y="2553" width="918" height="923"/>
+	<SubTexture name="rightex0001" x="3966" y="2553" width="918" height="923"/>
+	<SubTexture name="rightex0002" x="4884" y="2553" width="918" height="923"/>
+	<SubTexture name="rightex0003" x="5802" y="2553" width="918" height="923"/>
+	<SubTexture name="rightex0004" x="6720" y="2553" width="918" height="923"/>
+	<SubTexture name="rightex0005" x="0" y="3476" width="918" height="923"/>
+	<SubTexture name="rightex0006" x="918" y="3476" width="918" height="923"/>
+	<SubTexture name="rightex0007" x="1836" y="3476" width="918" height="923"/>
+	<SubTexture name="rightex0008" x="2754" y="3476" width="918" height="923"/>
+	<SubTexture name="rightex0009" x="3672" y="3476" width="918" height="923"/>
+	<SubTexture name="rightex0010" x="4590" y="3476" width="918" height="923"/>
+	<SubTexture name="rightex0011" x="5508" y="3476" width="918" height="923"/>
+	<SubTexture name="rightex0012" x="6426" y="3476" width="918" height="923"/>
+	<SubTexture name="rightex0013" x="0" y="4399" width="918" height="923"/>
+	<SubTexture name="rightex0014" x="918" y="4399" width="918" height="923"/>
+	<SubTexture name="upex0000" x="1836" y="4399" width="844" height="860"/>
+	<SubTexture name="upex0001" x="2680" y="4399" width="844" height="860"/>
+	<SubTexture name="upex0002" x="3524" y="4399" width="844" height="860"/>
+	<SubTexture name="upex0003" x="4368" y="4399" width="844" height="860"/>
+	<SubTexture name="upex0004" x="5212" y="4399" width="844" height="860"/>
+	<SubTexture name="upex0005" x="6056" y="4399" width="844" height="860"/>
+</TextureAtlas>

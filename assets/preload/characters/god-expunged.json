@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				600,
+				600
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				600,
+				600
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				870,
+				270
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				520,
+				280
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				400,
+				260
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Expunged_Hell_God_3",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "god-expunged-1",
+	"flip_x": false,
+	"healthbar_colors": [
+		26,
+		15,
+		12
+	],
+	"camera_position": [
+		-400,
+		-42
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
