@@ -32,13 +32,11 @@ class PurFreeplayState extends MusicBeatState
 	var selector:FlxText;
 	var curSelected:Int = 0;
 	var curDifficulty:Int = 1;
-	var curSpeed:Float = 1;
 
 	var bg:FlxSprite = new FlxSprite(0).loadGraphic(PurMainMenuState.randomizeBG());
 
 	var scoreBG:FlxSprite;
 	var scoreText:FlxText;
-	var speedText:FlxText;
 	var lerpScore:Int = 0;
 	var lerpRating:Float = 0;
 	var intendedScore:Int = 0;
@@ -172,6 +170,7 @@ class PurFreeplayState extends MusicBeatState
 					addWeek(['Antagonism-Poip-Part'], 3, ['minion']);
 					addWeek(['Antagonism-Test'], 3, ['bambiPISSED']);
 					addWeek(['Antagonism-Expunged'], 3, ['dataexpunged']);
+					addWeek(['Deploration'], 3, ['expunged']);
 					//	#if !debug
 				///	if(FlxG.save.data.idkFound)
 				///	#end
@@ -245,10 +244,6 @@ class PurFreeplayState extends MusicBeatState
 		scoreText.x = 20;
 		scoreText.y = -60;
 
-		speedText = new FlxText(FlxG.width, scoreText.y + 80, 0, "", 24);
-		speedText.font = scoreText.font;
-		speedText.alignment = RIGHT;
-
 		var scoreBG:FlxSprite = new FlxSprite(scoreText.x - 6, 0).makeGraphic(Std.int(FlxG.width * 1), 66, 0xFF000000);
 		scoreBG.alpha = 0.5;
 		scoreBG.screenCenter(X);
@@ -256,7 +251,6 @@ class PurFreeplayState extends MusicBeatState
 		add(scoreBG);
 
 		add(scoreText);
-		add(speedText);
 
 		var textBG:FlxSprite = new FlxSprite(0, FlxG.height - 26).makeGraphic(FlxG.width, 26, 0xFF000000);
 		textBG.alpha = 0.6;
@@ -390,22 +384,6 @@ class PurFreeplayState extends MusicBeatState
 
 		scoreText.text = 'PERSONAL BEST: ' + lerpScore + ' (' + Math.floor(lerpRating * 100) + '%)';
 
-		curSpeed = FlxMath.roundDecimal(curSpeed, 2);
-
-		#if !sys
-		curSpeed = 1;
-		#end
-
-		if(curSpeed < 0.25)
-			curSpeed = 0.25;
-
-		#if sys
-		speedText.text = "Speed: " + curSpeed + " (R+SHIFT)";
-		#else
-		speedText.text = "";
-		#end
-
-		speedText.x = FlxG.width - speedText.width;
 
 		var leftP = controls.UI_LEFT_P;
 		var rightP = controls.UI_RIGHT_P;
@@ -419,75 +397,8 @@ class PurFreeplayState extends MusicBeatState
 
 		if(songsReady)
 		{
-			if(-1 * Math.floor(FlxG.mouse.wheel) != 0 && !shift)
+			if(-1 * Math.floor(FlxG.mouse.wheel) != 0)
 				changeSelection(-1 * Math.floor(FlxG.mouse.wheel));
-			else if(-1 * (Math.floor(FlxG.mouse.wheel) / 10) != 0 && shift)
-			{
-				curSpeed += -1 * (Math.floor(FlxG.mouse.wheel) / 10);
-
-				#if cpp
-				@:privateAccess
-				{
-					if(FlxG.sound.music.active && FlxG.sound.music.playing)
-						lime.media.openal.AL.sourcef(FlxG.sound.music._channel.__source.__backend.handle, lime.media.openal.AL.PITCH, curSpeed);
-		
-					if (vocals.active && vocals.playing)
-						lime.media.openal.AL.sourcef(vocals._channel.__source.__backend.handle, lime.media.openal.AL.PITCH, curSpeed);
-				}
-				#end
-			}
-
-			if (leftP && !shift)
-				changeDiff(-1);
-			else if (leftP && shift)
-			{
-				curSpeed -= 0.05;
-
-				#if cpp
-				@:privateAccess
-				{
-					if(FlxG.sound.music.active && FlxG.sound.music.playing)
-						lime.media.openal.AL.sourcef(FlxG.sound.music._channel.__source.__backend.handle, lime.media.openal.AL.PITCH, curSpeed);
-		
-					if (vocals.active && vocals.playing)
-						lime.media.openal.AL.sourcef(vocals._channel.__source.__backend.handle, lime.media.openal.AL.PITCH, curSpeed);
-				}
-				#end
-			}
-
-			if (rightP && !shift)
-				changeDiff(1);
-			else if (rightP && shift)
-			{
-				curSpeed += 0.05;
-
-				#if cpp
-				@:privateAccess
-				{
-					if(FlxG.sound.music.active && FlxG.sound.music.playing)
-						lime.media.openal.AL.sourcef(FlxG.sound.music._channel.__source.__backend.handle, lime.media.openal.AL.PITCH, curSpeed);
-		
-					if (vocals.active && vocals.playing)
-						lime.media.openal.AL.sourcef(vocals._channel.__source.__backend.handle, lime.media.openal.AL.PITCH, curSpeed);
-				}
-				#end
-			}
-
-			if(FlxG.keys.justPressed.R  && shift)
-			{
-				curSpeed = 1;
-
-				#if cpp
-				@:privateAccess
-				{
-					if(FlxG.sound.music.active && FlxG.sound.music.playing)
-						lime.media.openal.AL.sourcef(FlxG.sound.music._channel.__source.__backend.handle, lime.media.openal.AL.PITCH, curSpeed);
-		
-					if (vocals.active && vocals.playing)
-						lime.media.openal.AL.sourcef(vocals._channel.__source.__backend.handle, lime.media.openal.AL.PITCH, curSpeed);
-				}
-				#end
-			}
 		}
 
 		if (upP && allowinputShit)
@@ -521,7 +432,6 @@ class PurFreeplayState extends MusicBeatState
 				PlayState.isFreeplayPur = true;
 				PlayState.isStoryMode = false;
 				PlayState.isFreeplay = false;
-				PlayState.songMultiplier = curSpeed;
 				PlayState.storyDifficulty = curDifficulty;
 
 				PlayState.storyWeek = songs[curSelected].week;
@@ -567,17 +477,6 @@ class PurFreeplayState extends MusicBeatState
 		vocals.looped = true;
 		vocals.volume = 0.7;
 		instPlaying = curSelected;
-
-		#if cpp
-		@:privateAccess
-		{
-			if(FlxG.sound.music.active && FlxG.sound.music.playing && !FlxG.keys.justPressed.ENTER)
-				lime.media.openal.AL.sourcef(FlxG.sound.music._channel.__source.__backend.handle, lime.media.openal.AL.PITCH, curSpeed);
-	
-			if(vocals.active && vocals.playing && !FlxG.keys.justPressed.ENTER)
-				lime.media.openal.AL.sourcef(vocals._channel.__source.__backend.handle, lime.media.openal.AL.PITCH, curSpeed);
-		}
-		#end
 	}
 	else #end if (accepted && allowinputShit)
 	{
@@ -599,7 +498,6 @@ class PurFreeplayState extends MusicBeatState
 		PlayState.isFreeplayPur = true;
 		PlayState.isStoryMode = false;
 		PlayState.isFreeplay = false;
-		PlayState.songMultiplier = curSpeed;
 
 		PlayState.storyDifficulty = curDifficulty;
 

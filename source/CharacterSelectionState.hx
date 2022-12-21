@@ -13,12 +13,13 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import flixel.math.FlxMath;
 import flixel.util.FlxStringUtil;
+import purgatory.PurFreeplayState;
 
 class CharacterSelectionState extends MusicBeatState //This is not from the D&B source code, it's completely made by me (Delta).
 {
 	public static var characterData:Array<Dynamic> = [
         //["character name", /*forms are here*/[["form 1 name", 'character json name'], ["form 2 name (can add more than just one)", 'character json name 2']]/*forms end here*/, /*these are score multipliers for arrows*/[1.0, 1.0, 1.0, 1.0], /*hide it completely*/ true], 
-        ["Boyfriend", [["Boyfriend", 'bf'], ["Boyfriend (Pixel)", 'bf-pixel-normalpos'], ["Boyfriend (Christmas)", 'bf-christmas'], ["Boyfriend and Girlfriend", 'bf-holding-gf']], [1, 1, 1, 1], false],
+        ["Boyfriend", [["Boyfriend", 'bf'], ["Boyfriend (Pixel)", 'bf-pixel-normalpos'], ["Boyfriend (Christmas)", 'bf-christmas'], ["Boyfriend and Girlfriend", 'bf-holding-gf'], ["Boyfriend and Girlfriend (Relic Version)", 'bf-holding-gf-relicversion'],], [1, 1, 1, 1], false],
         ["Dave", [["Dave", 'dave'], ["Dave (Insanity)", 'dave-insanity'], ["Dave (Splitathon)", 'dave-splitathon'], ["Dave (Old)", 'dave-older']], [0.25, 2, 2, 0.25], false], 
         ["3D Dave", [["3D Dave", 'dave-3d'], ["3D Dave (Old)", 'dave-insanity3d']], [2, 0.25, 0.25, 2], false],
         ["Bambi", [["Bambi", 'bambi'], ["Bambi (Old)", 'bambi-old'], ["Bambi (Splitathon)", 'bambi-splitathon'], ["Bambi (Angry)", 'bambi-mad']], [0, 0, 3, 0], false],
@@ -455,8 +456,16 @@ class CharacterSelectionState extends MusicBeatState //This is not from the D&B 
                 }
 
         		if (controls.BACK) {
-                    FlxG.sound.play(Paths.sound('cancelMenu'));
-                    MusicBeatState.switchState(new FreeplayState()); // is the bp menu still gonna be used or not?
+                    if(PlayState.isFreeplay) {
+                        FlxG.sound.play(Paths.sound('cancelMenu'));
+						MusicBeatState.switchState(new FreeplayState());
+						FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					}
+                    if(PlayState.isFreeplayPur) {
+                        FlxG.sound.play(Paths.sound('cancelMenu'));
+						MusicBeatState.switchState(new PurFreeplayState());
+						FlxG.sound.playMusic(Paths.music('purFreakyMenu'));
+					} // is the bp menu still gonna be used or not?
                 }
         super.update(elapsed);
     }
@@ -604,6 +613,14 @@ class CharacterSelectionState extends MusicBeatState //This is not from the D&B 
             FlxG.sound.playMusic(Paths.music('gameOverEnd'));
             new FlxTimer().start(1.5, function(tmr:FlxTimer)
             {
+                if(characterFile == 'bf-pixel-normalpos')
+					PlayState.SONG.gfVersion = 'gf-pixel';
+                if(characterFile == 'bf-christmas')
+					PlayState.SONG.gfVersion = 'gf-christmas';
+                if(characterFile == 'bf-holding-gf')
+					PlayState.SONG.gfVersion = 'pico-speakers';
+                if(characterFile == 'bf-holding-gf-relicversion')
+					PlayState.SONG.gfVersion = 'Android21';
                 PlayState.SONG.player1 = characterFile;
                 LoadingState.loadAndSwitchState(new PlayState());
                 FlxTween.tween(FlxG.camera, {zoom: 5}, 0.8, {ease: FlxEase.expoIn});

@@ -70,8 +70,8 @@
 	"no_antialiasing": true,
 	"image": "characters/gfPixel",
 	"position": [
-		0,
-		0
+		300,
+		280
 	],
 	"healthicon": "gf",
 	"flip_x": false,

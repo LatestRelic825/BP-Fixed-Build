@@ -24,6 +24,9 @@ import flixel.util.FlxTimer;
 import flixel.input.keyboard.FlxKey;
 import flixel.graphics.FlxGraphic;
 import Controls;
+import purgatory.PurFreeplayState;
+import FreeplayState;
+import flixel.addons.transition.FlxTransitionableState;
 
 using StringTools;
 
@@ -58,13 +61,16 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 		}
 		optionsArray.push(option);
 
-		/*var option:GameplayOption = new GameplayOption('Playback Rate', 'songspeed', 'float', 1);
+		#if !html5
+		var option:GameplayOption = new GameplayOption('Playback Rate', 'songspeed', 'float', 1);
 		option.scrollSpeed = 1;
 		option.minValue = 0.5;
-		option.maxValue = 2.5;
-		option.changeValue = 0.1;
+		option.maxValue = 3.0;
+		option.changeValue = 0.05;
 		option.displayFormat = '%vX';
-		optionsArray.push(option);*/
+		option.decimals = 2;
+		optionsArray.push(option);
+		#end
 
 		var option:GameplayOption = new GameplayOption('Health Gain Multiplier', 'healthgain', 'float', 1);
 		option.scrollSpeed = 2.5;
@@ -174,6 +180,8 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 			close();
 			ClientPrefs.saveSettings();
 			FlxG.sound.play(Paths.sound('cancelMenu'));
+			FreeplayState.fart = true;
+			PurFreeplayState.fart = true;
 		}
 
 		if(nextAccept <= 0)

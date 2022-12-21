@@ -108,13 +108,6 @@ class MusicBeatState extends FlxUIState
 	private function updateCurStep():Void
 	{
 		var lastChange = Conductor.getBPMFromSeconds(Conductor.songPosition);
-
-		var multi:Float = 1;
-
-		if(FlxG.state == PlayState.instance)
-			multi = PlayState.songMultiplier;
-
-		Conductor.recalculateStuff(multi);
 		
 		var shit = ((Conductor.songPosition - ClientPrefs.noteOffset) - lastChange.songTime) / lastChange.stepCrochet;
 		curDecStep = lastChange.stepTime + shit;
