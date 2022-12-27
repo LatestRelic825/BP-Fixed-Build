@@ -1,0 +1,177 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF IDLE instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"anim": "hey",
+			"fps": 24,
+			"name": "BF HEY!! instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "BF LEFT MISS instance 1"
+		},
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "BF LEFT NOTE instance 1"
+		},
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"indices": [],
+			"name": "BF LEFT NOTE LOOP instance 1"
+		},
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "BF UP MISS instance 1"
+		},
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "BF UP NOTE instance 1"
+		},
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-loop",
+			"indices": [],
+			"name": "BF UP NOTE LOOP instance 1"
+		},
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BF RIGHT NOTE instance 1"
+		},
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"indices": [],
+			"name": "BF RIGHT NOTE LOOP instance 1"
+		},
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "BF RIGHT MISS instance 1"
+		},
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "BF DOWN NOTE instance 1"
+		},
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-loop",
+			"indices": [],
+			"name": "BF DOWN NOTE LOOP instance 1"
+		},
+		{
+			"offsets": [
+				-270,
+				-230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "BF DOWN MISS instance 1"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/bf-holding-gf-Pixel",
+	"position": [
+		-90,
+		250
+	],
+	"healthicon": "bfandgf-pixel",
+	"flip_x": true,
+	"healthbar_colors": [
+		123,
+		214,
+		246
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 6.5
+}

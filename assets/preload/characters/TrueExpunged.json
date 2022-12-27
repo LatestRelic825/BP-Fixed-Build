@@ -60,7 +60,7 @@
 	"image": "characters/ExpungedFinal",
 	"position": [
 		-450,
-		-400
+		-350
 	],
 	"healthicon": "expunged",
 	"flip_x": false,

@@ -23,11 +23,13 @@ class PauseSubState extends MusicBeatSubstate
 	var grpMenuShit:FlxTypedGroup<Alphabet>;
 
 	var menuItems:Array<String> = [];
-	var menuItemsOG:Array<String> = ['Resume', 'Restart Song', 'Exit to Options menu', 'Change Difficulty', 'Toggle Practice Mode', 'Toggle Botplay', 'Exit to menu'];
+	var menuItemsOG:Array<String> = ['Resume', 'Restart Song', 'Change Character', 'Exit to Options menu', 'Change Difficulty', 'Toggle Practice Mode', 'Toggle Botplay', 'Exit to menu'];
 	var menuCryAbouIt:Array<String> = ['Resume', 'Restart Song', 'Exit to Options menu', 'Exit to menu'];
 	var menuFuckYou:Array<String> = ['Resume', 'Restart Song'];
 	var difficultyChoices = [];
 	var curSelected:Int = 0;
+
+	public static var isPlayState:Bool = false;
 
 	var pauseMusic:FlxSound;
 	var practiceText:FlxText;
@@ -72,6 +74,7 @@ class PauseSubState extends MusicBeatSubstate
 		}
 		difficultyChoices.push('BACK');
 
+		if(PlayState.isStoryMode || PlayState.isPurStoryMode) menuItemsOG.remove('Change Character');
 
 		pauseMusic = new FlxSound();
 		if(songName != null) {
@@ -244,9 +247,34 @@ class PauseSubState extends MusicBeatSubstate
 					practiceText.visible = PlayState.instance.practiceMode;
 				case "Restart Song":
 					restartSong();
+					if (PlayState.SONG.song.toLowerCase() == "deploration" || PlayState.SONG.song.toLowerCase() == "dishonored")
+					{
+						if (PlayState.window != null)
+						{
+							PlayState.window.close();
+						}
+					}
+				case "Change Character":
+					MusicBeatState.switchState(new CharacterSelectionState());
+					PlayState.SONG.speed = PlayState.previousScrollSpeedLmao;
+					isPlayState = true;
+					if (PlayState.SONG.song.toLowerCase() == "deploration" || PlayState.SONG.song.toLowerCase() == "dishonored")
+					{
+						if (PlayState.window != null)
+						{
+							PlayState.window.close();
+						}
+					}
 				case "Leave Charting Mode":
 					restartSong();
 					PlayState.chartingMode = false;
+					if (PlayState.SONG.song.toLowerCase() == "deploration" || PlayState.SONG.song.toLowerCase() == "dishonored")
+					{
+						if (PlayState.window != null)
+						{
+							PlayState.window.close();
+						}
+					}
 				case 'Skip Time':
 					if(curTime < Conductor.songPosition)
 					{
@@ -275,6 +303,13 @@ class PauseSubState extends MusicBeatSubstate
 					PlayState.deathCounter = 0;
 					PlayState.seenCutscene = false;
 					CustomFadeTransition.nextCamera = transCamera;
+					if (PlayState.SONG.song.toLowerCase() == "deploration" || PlayState.SONG.song.toLowerCase() == "dishonored")
+					{
+						if (PlayState.window != null)
+						{
+							PlayState.window.close();
+						}
+					}
 					if(PlayState.isStoryMode) {
 						MusicBeatState.switchState(new StoryMenuState());
 						FlxG.sound.playMusic(Paths.music('freakyMenu'));
@@ -282,6 +317,7 @@ class PauseSubState extends MusicBeatSubstate
 					if(PlayState.isFreeplay) {
 						MusicBeatState.switchState(new FreeplayState());
 						FlxG.sound.playMusic(Paths.music('freakyMenu'));
+						isPlayState = false;
 					}
 
 					if(PlayState.isPurStoryMode) {
@@ -291,7 +327,33 @@ class PauseSubState extends MusicBeatSubstate
 					if(PlayState.isFreeplayPur) {
 						MusicBeatState.switchState(new PurFreeplayState());
 						FlxG.sound.playMusic(Paths.music('purFreakyMenu'));
+						isPlayState = false;
 					} // @badcodeinfnfmods
+
+					PlayState.instance.practiceMode = false;
+					PlayState.changedDifficulty = false;
+					PlayState.instance.cpuControlled = false;
+					PlayState.chartingMode = false;
+				case "Exit to Options menu":
+					PlayState.deathCounter = 0;
+					PlayState.seenCutscene = false;
+					CustomFadeTransition.nextCamera = transCamera;
+					MusicBeatState.switchState(new options.OptionsState());
+
+					if (PlayState.SONG.song.toLowerCase() == "deploration" || PlayState.SONG.song.toLowerCase() == "dishonored")
+					{
+						if (PlayState.window != null)
+						{
+							PlayState.window.close();
+						}
+					}
+					
+					if (PlayState.isFreeplayPur || PlayState.isPurStoryMode) {
+						FlxG.sound.playMusic(Paths.music('purFreakyMenu'));
+					}
+					else if (PlayState.isFreeplay || PlayState.isStoryMode) {
+						FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					}
 
 					PlayState.instance.practiceMode = false;
 					PlayState.changedDifficulty = false;
@@ -318,6 +380,7 @@ class PauseSubState extends MusicBeatSubstate
 		PlayState.instance.paused = true; // For lua
 		FlxG.sound.music.volume = 0;
 		PlayState.instance.vocals.volume = 0;
+		PlayState.SONG.speed = PlayState.previousScrollSpeedLmao;
 
 		if(noTrans)
 		{

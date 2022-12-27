@@ -270,7 +270,7 @@ class PurTitleState extends MusicBeatState
 		}
 
 		if(logoBl != null) 
-			logoBl.animation.play('bump');
+			logoBl.animation.play('bump', true);
 
 		if(!closedState) 
 		{

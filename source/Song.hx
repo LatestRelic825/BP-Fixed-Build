@@ -5,6 +5,10 @@ import haxe.Json;
 import haxe.format.JsonParser;
 import lime.utils.Assets;
 
+#if windows
+import lime.app.Application;
+#end
+
 #if sys
 import sys.io.File;
 import sys.FileSystem;

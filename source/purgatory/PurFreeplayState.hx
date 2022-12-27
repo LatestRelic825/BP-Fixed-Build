@@ -56,7 +56,7 @@ class PurFreeplayState extends MusicBeatState
 
 	private var CurrentSongIcon:FlxSprite;
 
-	private var AllPossibleSongs:Array<String> = ["purgatory", "extrasandfanmades", "old", "mods"];
+	private var AllPossibleSongs:Array<String> = ["purgatory", "extrasandfanmades", "old", "joke", "mods"];
 
 	private var CurrentPack:Int = 0;
 
@@ -158,6 +158,7 @@ class PurFreeplayState extends MusicBeatState
 					addWeek(['Fast-Food'], 2, ['homo']);
 					addWeek(['bombu-x-bamburg-shipping-cute'], 2, ['homo']);
 					addWeek(['Computer'], 2, ['bombu']);
+					addWeek(['Instinct'], 2, ['bombu']);
 					addWeek(['sunshine'], 2, ['bandu']);
 					addWeek(['Reheated'], 2, ['crusti']);
 					addWeek(['Body-Destroyer'], 3, ['bambi3dUnfair']);
@@ -171,6 +172,7 @@ class PurFreeplayState extends MusicBeatState
 					addWeek(['Antagonism-Test'], 3, ['bambiPISSED']);
 					addWeek(['Antagonism-Expunged'], 3, ['dataexpunged']);
 					addWeek(['Deploration'], 3, ['expunged']);
+					addWeek(['Dishonored'], 3, ['expunged']);
 					//	#if !debug
 				///	if(FlxG.save.data.idkFound)
 				///	#end
@@ -187,6 +189,8 @@ class PurFreeplayState extends MusicBeatState
 					addWeek(['Nylon'], 3, ['dave']);
 					addWeek(['Antagonism-11-minutes'], 4, ['ohfuck']);
 					addWeek(['New-Antagonism'], 4, ['ohfuck']);
+				case 'joke':
+					addWeek(['5 minutes'], 2, ['expunged']);
 			    case 'mods':
 					for (i in 0...WeekData.weeksList.length) {
 						if(weekIsLocked(WeekData.weeksList[i])) continue;

@@ -13,8 +13,9 @@ class ClientPrefs {
 	public static var laneunderlay:Bool = false;
 	public static var laneTransparency:Float = 0.5;
 	public static var showFPS:Bool = true;
-	public static var judgementCounter:Bool = false;
-	public static var goldenappleiconbounce:Bool = true;
+	public static var judgementCounter:String = 'Disabled';
+	public static var uiStyle:String = 'Purgatory';
+	public static var iconBounce:String = 'Fixed Build';
 	public static var followarrow:Bool = true;
 	public static var hideTime:Bool = false;
 	public static var flashing:Bool = true;
@@ -22,6 +23,7 @@ class ClientPrefs {
 	public static var globalAntialiasing:Bool = true;
 	public static var noteSplashes:Bool = true;
 	public static var lowQuality:Bool = false;
+	public static var shaders:Bool = true;
 	public static var framerate:Int = 60;
 	public static var freezeGame:Bool = true;
 	public static var cursing:Bool = true;
@@ -46,7 +48,6 @@ class ClientPrefs {
 	public static var noReset:Bool = false;
 	public static var ratinginHud:Bool = true;
 	public static var colorBars:Bool = true;
-	public static var classicScore:Bool = false;
 	public static var healthBarAlpha:Float = 1;
 	public static var controllerMode:Bool = false;
 	public static var hitsoundVolume:Float = 0;
@@ -126,11 +127,13 @@ class ClientPrefs {
 		FlxG.save.data.flashing = flashing;
 		FlxG.save.data.globalAntialiasing = globalAntialiasing;
 		FlxG.save.data.noteSplashes = noteSplashes;
-		FlxG.save.data.goldenappleiconbounce = goldenappleiconbounce;
 		FlxG.save.data.lowQuality = lowQuality;
+		FlxG.save.data.shaders = shaders;
 		FlxG.save.data.framerate = framerate;
 		FlxG.save.data.freezeGame = freezeGame;
 		FlxG.save.data.judgementCounter = judgementCounter;
+		FlxG.save.data.uiStyle = uiStyle;
+		FlxG.save.data.iconBounce = iconBounce;
 		//FlxG.save.data.cursing = cursing;
 		//FlxG.save.data.violence = violence;
 		FlxG.save.data.speed = speed;
@@ -167,7 +170,6 @@ class ClientPrefs {
 		FlxG.save.data.pauseMusic = pauseMusic;
 		FlxG.save.data.hitsoundtype = hitsoundtype;
 		FlxG.save.data.longAssBar = longAssBar;
-		FlxG.save.data.classicScore = classicScore;
 		FlxG.save.data.ratinginHud = ratinginHud;
 		FlxG.save.data.colorBars = colorBars;
 		FlxG.save.data.checkForUpdates = checkForUpdates;
@@ -198,9 +200,6 @@ class ClientPrefs {
 		if(FlxG.save.data.laneTransparency != null) {
 			laneTransparency = FlxG.save.data.laneTransparency;
 		}
-		if(FlxG.save.data.goldenappleiconbounce != null) {
-			goldenappleiconbounce = FlxG.save.data.goldenappleiconbounce;
-		}
 		if(FlxG.save.data.showFPS != null) {
 			showFPS = FlxG.save.data.showFPS;
 			if(Main.fpsVar != null) {
@@ -212,6 +211,12 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.judgementCounter != null) {
 			judgementCounter = FlxG.save.data.judgementCounter;
+		}
+		if(FlxG.save.data.uiStyle != null) {
+			uiStyle = FlxG.save.data.uiStyle;
+		}
+		if(FlxG.save.data.iconBounce != null) {
+			iconBounce = FlxG.save.data.iconBounce;
 		}
 		if(FlxG.save.data.followarrow != null) {
 			followarrow = FlxG.save.data.followarrow;
@@ -230,6 +235,9 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.lowQuality != null) {
 			lowQuality = FlxG.save.data.lowQuality;
+		}
+		if(FlxG.save.data.shaders != null) {
+			shaders = FlxG.save.data.shaders;
 		}
 		if(FlxG.save.data.framerate != null) {
 			framerate = FlxG.save.data.framerate;
@@ -264,9 +272,6 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.colorBars != null) {
 			colorBars = FlxG.save.data.colorBars;
-		}
-		if(FlxG.save.data.classicScore != null) {
-			classicScore = FlxG.save.data.classicScore;
 		}
 		if(FlxG.save.data.longAssBar != null) {
 			longAssBar = FlxG.save.data.longAssBar;

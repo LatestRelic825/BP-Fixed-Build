@@ -9,6 +9,8 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
+import purgatory.NewStoryPurgatory;
+import purgatory.PurFreeplayState;
 
 class GameOverSubstate extends MusicBeatSubstate
 {
@@ -94,13 +96,24 @@ class GameOverSubstate extends MusicBeatSubstate
 			PlayState.seenCutscene = false;
 
 			WeekData.loadTheFirstEnabledMod();
-			if (PlayState.isStoryMode)
+			if (PlayState.isStoryMode) {
 				MusicBeatState.switchState(new StoryMenuState());
-			else
+			} else if (PlayState.isPurStoryMode) {
+				MusicBeatState.switchState(new NewStoryPurgatory());
+			} else if (PlayState.isFreeplay) {
 				MusicBeatState.switchState(new FreeplayState());
+			} else if (PlayState.isFreeplayPur) {
+				MusicBeatState.switchState(new PurFreeplayState());
+			}
 
-			FlxG.sound.playMusic(Paths.music('freakyMenu'));
+			if (PlayState.isFreeplayPur || PlayState.isPurStoryMode) {
+	    		FlxG.sound.playMusic(Paths.music('purFreakyMenu'));
+			}
+			else if (PlayState.isFreeplay || PlayState.isStoryMode) {
+				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+			}
 			PlayState.instance.callOnLuas('onGameOverConfirm', [false]);
+			PauseSubState.isPlayState = false;
 		}
 
 		if (boyfriend.animation.curAnim.name == 'firstDeath')

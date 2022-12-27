@@ -338,6 +338,24 @@ class Character extends FlxSprite
 			}
 		}
 	}
+	public function dance2()
+	{
+		if (!debugMode && !skipDance && !specialAnim)
+		{
+			if(danceIdle)
+			{
+				danced = !danced;
+
+				if (danced)
+					playAnim('danceRight' + idleSuffix);
+				else
+					playAnim('danceLeft' + idleSuffix);
+			}
+			else if(animation.getByName('idle' + idleSuffix) != null) {
+					playAnim('idle' + idleSuffix, true);
+			}
+		}
+	}
 
 	public function playAnim(AnimName:String, Force:Bool = false, Reversed:Bool = false, Frame:Int = 0):Void
 	{

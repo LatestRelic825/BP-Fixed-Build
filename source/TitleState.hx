@@ -465,11 +465,10 @@ class TitleState extends MusicBeatState
 		}
 
 		if(logoBl != null) 
-			logoBl.animation.play('bump');
+			logoBl.animation.play('bump', true);
 
 		if(gfDance != null) {
 			danceLeft = !danceLeft;
-
 			if (danceLeft)
 				gfDance.animation.play('danceRight');
 			else

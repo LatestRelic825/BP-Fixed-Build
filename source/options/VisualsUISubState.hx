@@ -41,11 +41,28 @@ class VisualsUISubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 
-		var option:Option = new Option('Classic Score Text',
-			'Enable this to disable\nNPS and Ratings in the Score Text.\n(Shows Just score, misses and accuracy)',
-			'classicScore',
-			'bool',
-			false);
+		var option:Option = new Option('Judgement Counter:',
+			"Shows a judgement counter at the left of the screen (Example: Sicks: 93,\nGoods:0, Bads: 1, 'Shits: 0)",
+			'judgementCounter',
+			'string',
+			'Disabled',
+			['Disabled', 'Simple', 'Advanced']);
+		addOption(option);
+
+		var option:Option = new Option('UI Style:',
+			"Changes which UI style is shown\nduring gameplay.",
+			'uiStyle',
+			'string',
+			'Purgatory',
+			['Purgatory', 'Kade Engine', 'Psych Engine', 'Dave Engine']);
+		addOption(option);
+
+		var option:Option = new Option('Icon Bounce:',
+			"Changes what icon bounce it plays in-game.",
+			'iconBounce',
+			'string',
+			'Fixed Build',
+			['Fixed Build', 'Golden Apple', 'Psych Engine', 'Dave Engine', 'Vanilla FNF']);
 		addOption(option);
 
 		 var option:Option = new Option('Ratings and Combo in the Hud',
@@ -58,13 +75,6 @@ class VisualsUISubState extends BaseOptionsMenu
 		var option:Option = new Option('Eyesores, Flashing Lights\nAnd Shaking',
 			"Uncheck this if you're sensitive to flashing lights\nand Fast flashing colors!",
 			'flashing',
-			'bool',
-			true);
-		addOption(option);
-
-		var option:Option = new Option('Enable Golden Apple Icon Bounce',
-			"If Checked, Enables the icon bounce from Golden Apple.",
-			'goldenappleiconbounce',
 			'bool',
 			true);
 		addOption(option);

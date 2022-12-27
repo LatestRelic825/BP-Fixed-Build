@@ -9,7 +9,7 @@
 			"fps": 24,
 			"anim": "idle",
 			"indices": [],
-			"name": "BF IDLE"
+			"name": "BF IDLE instance 1"
 		},
 		{
 			"loop": false,
@@ -19,7 +19,7 @@
 			],
 			"anim": "singLEFTmiss",
 			"fps": 24,
-			"name": "BF LEFT MISS",
+			"name": "BF LEFT MISS instance 1",
 			"indices": []
 		},
 		{
@@ -30,7 +30,18 @@
 			],
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "BF LEFT NOTE",
+			"name": "BF LEFT NOTE instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-170,
+				-130
+			],
+			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "BF LEFT NOTE LOOP instance 1",
 			"indices": []
 		},
 		{
@@ -41,7 +52,7 @@
 			],
 			"anim": "singUPmiss",
 			"fps": 24,
-			"name": "BF UP MISS",
+			"name": "BF UP MISS instance 1",
 			"indices": []
 		},
 		{
@@ -52,7 +63,18 @@
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "BF UP NOTE",
+			"name": "BF UP NOTE instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-170,
+				-130
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "BF UP NOTE LOOP instance 1",
 			"indices": []
 		},
 		{
@@ -63,7 +85,18 @@
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "BF RIGHT NOTE",
+			"name": "BF RIGHT NOTE instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-170,
+				-130
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "BF RIGHT NOTE LOOP instance 1",
 			"indices": []
 		},
 		{
@@ -74,7 +107,7 @@
 			],
 			"anim": "singRIGHTmiss",
 			"fps": 24,
-			"name": "BF RIGHT MISS",
+			"name": "BF RIGHT MISS instance 1",
 			"indices": []
 		},
 		{
@@ -85,7 +118,18 @@
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "BF DOWN NOTE",
+			"name": "BF DOWN NOTE instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-170,
+				-130
+			],
+			"anim": "singDOWN-loop",
+			"fps": 24,
+			"name": "BF DOWN NOTE LOOP instance 1",
 			"indices": []
 		},
 		{
@@ -96,7 +140,7 @@
 			],
 			"anim": "singDOWNmiss",
 			"fps": 24,
-			"name": "BF DOWN MISS",
+			"name": "BF DOWN MISS instance 1",
 			"indices": []
 		}
 	],
