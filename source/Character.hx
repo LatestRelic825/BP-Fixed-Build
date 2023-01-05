@@ -291,6 +291,17 @@ class Character extends FlxSprite
 						animationNotes.shift();
 					}
 					if(animation.curAnim.finished) playAnim(animation.curAnim.name, false, false, animation.curAnim.frames.length - 3);
+				case 'babman-player':
+					if (animation.curAnim.name.startsWith('sing'))
+					{
+						holdTimer += elapsed;
+					}
+
+					if (holdTimer >= Conductor.stepCrochet * 0.0011 * singDuration)
+					{
+						dance();
+						holdTimer = 0;
+					}
 			}
 
 			if (!isPlayer)

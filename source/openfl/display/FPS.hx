@@ -5,6 +5,7 @@ import openfl.events.Event;
 import openfl.text.TextField;
 import openfl.text.TextFormat;
 import flixel.math.FlxMath;
+import flixel.util.FlxColor;
 #if gl_stats
 import openfl.display._internal.stats.Context3DStats;
 import openfl.display._internal.stats.DrawCallContext;
@@ -46,7 +47,7 @@ class FPS extends TextField
 		currentFPS = 0;
 		selectable = false;
 		mouseEnabled = false;
-		defaultTextFormat = new TextFormat("_sans", 12, color);
+		defaultTextFormat = new TextFormat("Comic Sans MS Bold", 16, color);
 		autoSize = LEFT;
 		multiline = true;
 		text = "FPS: ";
@@ -64,10 +65,36 @@ class FPS extends TextField
 		#end
 	}
 
+	var array:Array<FlxColor> = [
+		FlxColor.fromRGB(148, 0, 211),
+		FlxColor.fromRGB(75, 0, 130),
+		FlxColor.fromRGB(0, 0, 255),
+		FlxColor.fromRGB(0, 255, 0),
+		FlxColor.fromRGB(255, 255, 0),
+		FlxColor.fromRGB(255, 127, 0),
+		FlxColor.fromRGB(255, 0 , 0)
+	];
+
+	var skippedFrames = 0;
+
+	public static var currentColor = 0;
+
 	// Event Handlers
 	@:noCompletion
 	private #if !flash override #end function __enterFrame(deltaTime:Float):Void
 	{
+		if (ClientPrefs.rainbowFPS)
+			{
+				if (currentColor >= array.length)
+					currentColor = 0;
+				currentColor = Math.round(FlxMath.lerp(0, array.length, skippedFrames / (ClientPrefs.framerate / 2)));
+				(cast(Lib.current.getChildAt(0), Main)).changeFPSColor(array[currentColor]);
+				currentColor++;
+				skippedFrames++;
+				if (skippedFrames > (ClientPrefs.framerate / 2))
+					skippedFrames = 0;
+			}
+
 		currentTime += deltaTime;
 		times.push(currentTime);
 
@@ -90,19 +117,13 @@ class FPS extends TextField
 			if (memoryMegas > 1000)
 			{
 				var memoryGB = (memoryMegas / 1000);
-				text += "\nMemory: " + FlxMath.roundDecimal(memoryGB, 2) + " GB";
+				text += "\nMemory:\n" + FlxMath.roundDecimal(memoryGB, 2) + " GB";
 			}
 			else
 			{
-				text += "\nMemory: " + memoryMegas + " MB";
+				text += "\nMemory:\n" + memoryMegas + " MB";
 			}
 			#end
-
-			textColor = 0xFFFFFFFF;
-			if (memoryMegas > 3000 || currentFPS <= ClientPrefs.framerate / 2)
-			{
-				textColor = 0xFFFF0000;
-			}
 
 			#if (gl_stats && !disable_cffi && (!html5 || !canvas))
 			text += "\ntotalDC: " + Context3DStats.totalDrawCalls();

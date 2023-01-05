@@ -62,7 +62,7 @@ class VisualsUISubState extends BaseOptionsMenu
 			'iconBounce',
 			'string',
 			'Fixed Build',
-			['Fixed Build', 'Golden Apple', 'Psych Engine', 'Dave Engine', 'Vanilla FNF']);
+			['Fixed Build', 'Golden Apple', 'Psych Engine', 'Dave Engine', 'Vanilla FNF', 'Custom Icon Bounce']);
 		addOption(option);
 
 		 var option:Option = new Option('Ratings and Combo in the Hud',

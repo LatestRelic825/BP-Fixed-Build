@@ -191,6 +191,7 @@ class PurFreeplayState extends MusicBeatState
 					addWeek(['New-Antagonism'], 4, ['ohfuck']);
 				case 'joke':
 					addWeek(['5 minutes'], 2, ['expunged']);
+					addWeek(['Platonic'], 2, ['face']);
 			    case 'mods':
 					for (i in 0...WeekData.weeksList.length) {
 						if(weekIsLocked(WeekData.weeksList[i])) continue;

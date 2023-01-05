@@ -1,10 +1,11 @@
 package;
 
-import openfl.text.TextFormat;
 import flixel.graphics.FlxGraphic;
 import flixel.FlxG;
 import flixel.FlxGame;
 import flixel.FlxState;
+import flixel.util.FlxColor;
+import openfl.display.BlendMode;
 import openfl.Assets;
 import openfl.Lib;
 import openfl.display.FPS;
@@ -36,6 +37,8 @@ class Main extends Sprite
 	var skipSplash:Bool = true; // Whether to skip the flixel splash screen that appears in release mode.
 	var startFullscreen:Bool = false; // Whether to start the game in fullscreen on desktop targets
 	public static var fpsVar:FPS;
+
+	public static var applicationName:String = "Friday Night Funkin': Vs Dave And Bambi DE & Bambi's Purgatory Fixed Build V5";
 
 	// You can pretty much ignore everything from here on - your code should go in your states.
 
@@ -83,12 +86,10 @@ class Main extends Sprite
 		}
 	
 		ClientPrefs.loadDefaultKeys();
-		addChild(new FlxGame(gameWidth, gameHeight, initialState, zoom, framerate, framerate, skipSplash, startFullscreen));
+		addChild(new FlxGame(gameWidth, gameHeight, initialState, #if (flixel  < "5.0.0") zoom, #end framerate, framerate, skipSplash, startFullscreen));
 
 		#if !mobile
 		fpsVar = new FPS(10, 3, 0xFFFFFF);
-		var fpsFormat = new TextFormat("Comic Sans MS Bold", 15, 0xFFFFFF, true);
-		fpsVar.defaultTextFormat = fpsFormat;
 		addChild(fpsVar);
 		Lib.current.stage.align = "tl";
 		Lib.current.stage.scaleMode = StageScaleMode.NO_SCALE;
@@ -105,6 +106,11 @@ class Main extends Sprite
 		#if CRASH_HANDLER
 		Lib.current.loaderInfo.uncaughtErrorEvents.addEventListener(UncaughtErrorEvent.UNCAUGHT_ERROR, onCrash);
 		#end
+	}
+
+	public function changeFPSColor(color:FlxColor)
+	{
+		fpsVar.textColor = color;
 	}
 
 	// Code was entirely made by sqirra-rng for their fnf engine named "Izzy Engine", big props to them!!!

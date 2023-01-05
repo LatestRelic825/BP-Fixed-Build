@@ -59,6 +59,14 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 			true); //Default value
 		addOption(option);
 
+		var option:Option = new Option('Rainbow FPS', //Name
+			'If checked, makes the colors\nof the FPS RGB.', //Description
+			'rainbowFPS', //Save data variable name
+			'bool', //Variable type
+			false); //Default value
+		option.onChange = onChangeRainbowFPS;
+		addOption(option);
+
 		#if !html5 //Apparently other framerates isn't correctly supported on Browser? Probably it has some V-Sync shit enabled by default, idk
 		var option:Option = new Option('Framerate',
 			"Pretty self explanatory, isn't it?",
@@ -100,5 +108,11 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 			FlxG.drawFramerate = ClientPrefs.framerate;
 			FlxG.updateFramerate = ClientPrefs.framerate;
 		}
+	}
+
+	function onChangeRainbowFPS()
+	{	
+		if(!ClientPrefs.rainbowFPS)
+		(cast (Lib.current.getChildAt(0), Main)).changeFPSColor(FlxColor.WHITE);
 	}
 }

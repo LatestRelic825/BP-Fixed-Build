@@ -62,14 +62,18 @@ class Conductor
 		var windowNames:Array<String> = ['sick', 'good', 'bad'];
 	
 		// var diff = Math.abs(note.strumTime - Conductor.songPosition) / (PlayState.songMultiplier >= 1 ? PlayState.songMultiplier : 1);
-		for(i in 0...timingWindows.length) // based on 4 timing windows, will break with anything else
-		{
-			if (diff <= timingWindows[Math.round(Math.min(i, timingWindows.length - 1))])
+		if(PlayState.instance.cpuControlled != true) {
+			for(i in 0...timingWindows.length) // based on 4 timing windows, will break with anything else
 			{
-				return windowNames[i];
+				if (diff <= timingWindows[Math.round(Math.min(i, timingWindows.length - 1))])
+				{
+					return windowNames[i];
+				}
 			}
+			return 'shit';
+		} else {
+			return 'sick';
 		}
-		return 'shit';
 	}
 	public static function getCrotchetAtTime(time:Float){
 		var lastChange = getBPMFromSeconds(time);

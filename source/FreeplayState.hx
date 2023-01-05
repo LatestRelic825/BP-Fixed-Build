@@ -130,7 +130,7 @@ class FreeplayState extends MusicBeatState
 					addWeek(['Old-Splitathon'], 12, ['Splitathon']);
 				case 'joke':
                     addWeek(['Supernovae', 'Glitch', 'Vs-Dave-Thanksgiving', 'vs-dave-christmas'], 3, ['bambiJoke']);
-					addWeek(['Master'], 3, ['bambi-joke-mad']);
+					addWeek(['Master', 'Mastered'], 3, ['bambi-joke-mad']);
 					#if !debug
 					if (FlxG.save.data.cheatingFound)
 					#end
@@ -140,6 +140,7 @@ class FreeplayState extends MusicBeatState
 					if (FlxG.save.data.unfairnessFound)
 					#end
 						addWeek(['Unfairness'], 5, ['bambi3dUnfair']);
+						addWeek(['Exploitation'], 5, ['expunged']);
 				case 'extrasandfanmades':
 					addWeek(['Furiosity'], 2, ['dave3d']);
 					addWeek(['Mealie'], 3, ['bambi']);

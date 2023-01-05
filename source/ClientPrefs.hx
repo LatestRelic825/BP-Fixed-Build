@@ -13,6 +13,7 @@ class ClientPrefs {
 	public static var laneunderlay:Bool = false;
 	public static var laneTransparency:Float = 0.5;
 	public static var showFPS:Bool = true;
+	public static var rainbowFPS:Bool = false;
 	public static var judgementCounter:String = 'Disabled';
 	public static var uiStyle:String = 'Purgatory';
 	public static var iconBounce:String = 'Fixed Build';
@@ -122,6 +123,7 @@ class ClientPrefs {
 		FlxG.save.data.laneunderlay = laneunderlay;
 		FlxG.save.data.laneTransparency = laneTransparency;
 		FlxG.save.data.showFPS = showFPS;
+		FlxG.save.data.rainbowFPS = rainbowFPS;
 		FlxG.save.data.followarrow = followarrow;
 		FlxG.save.data.hitsounds = hitsounds;
 		FlxG.save.data.flashing = flashing;
@@ -205,6 +207,9 @@ class ClientPrefs {
 			if(Main.fpsVar != null) {
 				Main.fpsVar.visible = showFPS;
 			}
+		}
+		if(FlxG.save.data.rainbowFPS != null) {
+			rainbowFPS = FlxG.save.data.rainbowFPS;
 		}
 		if(FlxG.save.data.freezeGame != null) {
 			freezeGame = FlxG.save.data.freezeGame;
