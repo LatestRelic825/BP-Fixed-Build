@@ -334,6 +334,8 @@ class PlayState extends MusicBeatState
 
 	public var ExpungedWindowCenterPos:FlxPoint = new FlxPoint(0,0);
 
+	public var BoyfriendWindowCenterPos:FlxPoint = new FlxPoint(0,0);
+
 	private var windowSteadyX:Float;
 
 	private var shakeCam:Bool = false;
@@ -2989,16 +2991,16 @@ class PlayState extends MusicBeatState
 	    	songWatermark = new FlxText(5, textYPos, FlxG.width,
 			SONG.song
 			+ " - "
-			+ (curSong.toLowerCase() != 'splitathon' ? (storyDifficulty == 3 ? "FINALE" : storyDifficulty == 2 ? "HARD" : storyDifficulty == 1 ? "NORMAL" : "EASY") : "FINALE")
-			+ " | " + engineName + '0.6.2', 14);
+			+ (curSong.toLowerCase() != 'splitathon' ? (storyDifficulty == 3 ? "FINALE" : storyDifficulty == 2 ? "Hard" : storyDifficulty == 1 ? "Normal" : "Easy") : "FINALE")
+			+ " | " + engineName + MainMenuState.psychEngineVersion, 14);
 			songWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		} 
 		if (ClientPrefs.uiStyle == 'Dave Engine' || ClientPrefs.uiStyle == 'Purgatory' || ClientPrefs.uiStyle == 'Psych Engine') {
 			songWatermark = new FlxText(5, textYPos, FlxG.width,
 			SONG.song
 			+ " - "
-			+ (curSong.toLowerCase() != 'splitathon' ? (storyDifficulty == 3 ? "FINALE" : storyDifficulty == 2 ? "HARD" : storyDifficulty == 1 ? "NORMAL" : "EASY") : "FINALE")
-			+ " | " + engineName + '0.6.2', 14);
+			+ (curSong.toLowerCase() != 'splitathon' ? (storyDifficulty == 3 ? "FINALE" : storyDifficulty == 2 ? "Hard" : storyDifficulty == 1 ? "Normal" : "Easy") : "FINALE")
+			+ " | " + engineName + MainMenuState.psychEngineVersion, 14);
 			songWatermark.setFormat(Paths.font("comic.ttf"), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 			songWatermark.borderSize = 1.25;
 			//+ " ", 16);
@@ -3092,7 +3094,7 @@ class PlayState extends MusicBeatState
 		    	composersWatermark = 'Cynda'; // who will make v2
 			// fdsgujhosfdjohfsdjgn
 			default:
-				composersWatermark = ' ';
+				composersWatermark = 'Unknown Composer';
 		}
 
 		ballsText = new FlxText(20, 0, 0, "", 20);
@@ -3874,7 +3876,7 @@ class PlayState extends MusicBeatState
 	function cacheCountdown()
 	{
 		var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
-		if (SONG.song.toLowerCase() == 'deploration' || SONG.song.toLowerCase() == 'dishonored') {
+		if (SONG.song.toLowerCase() == 'deploration' || SONG.song.toLowerCase() == 'dishonored' || SONG.song.toLowerCase() == 'exploitation') {
 			introAssets.set('default', ['ready', 'set', 'go_glitch']);
 			introAssets.set('pixel', ['pixelUI/ready-pixel', 'pixelUI/set-pixel', 'pixelUI/date_glitch-pixel']);
 		} else {
@@ -3966,7 +3968,7 @@ class PlayState extends MusicBeatState
 				}
 				if (tmr.loopsLeft % boyfriend.danceEveryNumBeats == 0 && boyfriend.animation.curAnim != null && !boyfriend.animation.curAnim.name.startsWith('sing') && !boyfriend.stunned)
 				{
-					boyfriend.dance2();
+					boyfriend.dance();
 				}
 				if (tmr.loopsLeft % dad.danceEveryNumBeats == 0 && dad.animation.curAnim != null && !dad.animation.curAnim.name.startsWith('sing') && !dad.stunned)
 				{
@@ -4016,7 +4018,7 @@ class PlayState extends MusicBeatState
 				}
 				
 				var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
-				if (SONG.song.toLowerCase() == 'deploration' || SONG.song.toLowerCase() == 'dishonored') {
+				if (SONG.song.toLowerCase() == 'deploration' || SONG.song.toLowerCase() == 'dishonored' || SONG.song.toLowerCase() == 'exploitation') {
 					introAssets.set('default', ['ready', 'set', 'go_glitch']);
 					introAssets.set('pixel', ['pixelUI/ready-pixel', 'pixelUI/set-pixel', 'pixelUI/date_glitch-pixel']);
 				}
@@ -4132,7 +4134,7 @@ class PlayState extends MusicBeatState
 								countdownGo.destroy();
 							}
 						});
-						if (SONG.song.toLowerCase() == 'deploration' || SONG.song.toLowerCase() == 'dishonored') {
+						if (SONG.song.toLowerCase() == 'deploration' || SONG.song.toLowerCase() == 'dishonored' || SONG.song.toLowerCase() == 'exploitation') {
 							FlxG.sound.play(Paths.sound('introGo_weird' + introSoundsSuffix), 0.6);
 						}
 						else 
@@ -4236,7 +4238,7 @@ class PlayState extends MusicBeatState
 				}
 				if (tmr.loopsLeft % boyfriend.danceEveryNumBeats == 0 && boyfriend.animation.curAnim != null && !boyfriend.animation.curAnim.name.startsWith('sing') && !boyfriend.stunned)
 				{
-					boyfriend.dance2();
+					boyfriend.dance();
 				}
 				if (tmr.loopsLeft % dad.danceEveryNumBeats == 0 && dad.animation.curAnim != null && !dad.animation.curAnim.name.startsWith('sing') && !dad.stunned)
 				{
@@ -4562,16 +4564,16 @@ class PlayState extends MusicBeatState
 
 		for (dicknballs in [composersText, ballsText]) {
 			if (dicknballs != null) {
-				FlxTween.tween(dicknballs, {x:0}, 1.5, {
-					ease: FlxEase.elasticInOut
+				FlxTween.tween(dicknballs, {x:0}, 0.5, {
+					ease: FlxEase.backOut
 				});
 
-				FlxTween.tween(dicknballs, {x:-1000}, 1.5, {
-					startDelay: 6 / playbackRate,
+				FlxTween.tween(dicknballs, {x: composersText.width * -1}, 1, {
+					startDelay: 3 / playbackRate,
 					onComplete: function(tween:FlxTween) {
 						remove(dicknballs);
 					},
-					ease: FlxEase.elasticInOut
+					ease: FlxEase.backIn
 				});
 			}
 		}
@@ -4586,7 +4588,7 @@ class PlayState extends MusicBeatState
 				add(blackScreen);
 					
 				Application.current.window.title = "[DATA EXPUNGED]";
-				Application.current.window.setIcon(lime.graphics.Image.fromFile("art/icons/AAAA.png"));
+				Application.current.window.setIcon(lime.graphics.Image.fromFile("art/appIcons/aaaa.png"));
 		}
 
 		switch(curStage)
@@ -6573,11 +6575,11 @@ class PlayState extends MusicBeatState
 		    		FlxColor.WHITE);
 					healthBar.updateBar();
 				case 3980:
-					FlxTween.tween(FlxG.camera, {angle: 360}, 0.3 / playbackRate, {ease: FlxEase.backInOut});
-					FlxTween.tween(camHUD, {angle: 360}, 0.3 / playbackRate, {ease: FlxEase.backInOut});
+					FlxTween.tween(FlxG.camera, {angle: 360}, 0.3);
+					FlxTween.tween(camHUD, {angle: 360}, 0.3);
 				case 4044:
-					FlxTween.tween(FlxG.camera, {angle: 0}, 0.3 / playbackRate, {ease: FlxEase.backInOut});
-					FlxTween.tween(camHUD, {angle: 0}, 0.3 / playbackRate, {ease: FlxEase.backInOut});
+					FlxTween.tween(FlxG.camera, {angle: 0}, 0.3);
+					FlxTween.tween(camHUD, {angle: 0}, 0.3);
 				case 4368:
 					boyfriend2.alpha = 0;
 					boyfriend.x = 770;
@@ -7662,7 +7664,7 @@ class PlayState extends MusicBeatState
 			if(!cpuControlled) {
 				keyShit();
 			} else if(boyfriend.animation.curAnim != null && boyfriend.holdTimer > Conductor.stepCrochet * 0.0011 * boyfriend.singDuration && boyfriend.animation.curAnim.name.startsWith('sing') && !boyfriend.animation.curAnim.name.endsWith('miss')) {
-				boyfriend.dance2();
+				boyfriend.dance();
 				camFollowX = 0;
 				camFollowY = 0;
 				if(UsingNewCam) bfSingYeah = false;
@@ -9805,7 +9807,7 @@ class PlayState extends MusicBeatState
 			}
 			else if (boyfriend.animation.curAnim != null && boyfriend.holdTimer > Conductor.stepCrochet * 0.0011 * boyfriend.singDuration && boyfriend.animation.curAnim.name.startsWith('sing') && !boyfriend.animation.curAnim.name.endsWith('miss'))
 			{
-				boyfriend.dance2();
+				boyfriend.dance();
 				camFollowX = 0;
 				camFollowY = 0;
 				if(UsingNewCam) bfSingYeah = false;
@@ -11151,7 +11153,7 @@ class PlayState extends MusicBeatState
 						#if windows
 						popupWindow();
 						#end
-
+						
 					case 1282:
 						expungedBG.loadGraphic(Paths.image('backgrounds/void/exploit/broken_expunged_chain'));
 						expungedBG.setGraphicSize(Std.int(expungedBG.width * 2));
@@ -11497,7 +11499,7 @@ class PlayState extends MusicBeatState
 		}
 		if (curBeat % boyfriend.danceEveryNumBeats == 0 && boyfriend.animation.curAnim != null && !boyfriend.animation.curAnim.name.startsWith('sing') && !boyfriend.stunned)
 			{
-				boyfriend.dance2();
+				boyfriend.dance();
 		    	if(UsingNewCam) bfSingYeah = false;
 				//boyfriend.playAnim('idle', true);
 
@@ -11563,8 +11565,6 @@ class PlayState extends MusicBeatState
 				if (curBeat % dave.danceEveryNumBeats == 0 && dave.animation.curAnim.name != null && !dave.animation.curAnim.name.startsWith("sing") && !dave.stunned)
 				{
 					dave.dance();
-
-					dave.playAnim('idle', true);
 				}
 			}
 			if (bambi != null)
@@ -12063,94 +12063,94 @@ class PlayState extends MusicBeatState
 	}
 
 	function popupWindow()
-		{
-			var screenwidth = Application.current.window.display.bounds.width;
-			var screenheight = Application.current.window.display.bounds.height;
+	{
+		var screenwidth = Application.current.window.display.bounds.width;
+		var screenheight = Application.current.window.display.bounds.height;
 	
-			// center
-			Application.current.window.x = Std.int((screenwidth / 2) - (1280 / 2));
-			Application.current.window.y = Std.int((screenheight / 2) - (720 / 2));
-			Application.current.window.width = 1280;
-			Application.current.window.height = 720;
+		// center
+		Application.current.window.x = Std.int((screenwidth / 2) - (1280 / 2));
+		Application.current.window.y = Std.int((screenheight / 2) - (720 / 2));
+		Application.current.window.width = 1280;
+		Application.current.window.height = 720;
 	
-			window = Application.current.createWindow({
-				title: "expunged.dat",
-				width: 800,
-				height: 800,
-				borderless: true,
-				alwaysOnTop: true
-			});
+		window = Application.current.createWindow({
+			title: "expunged.dat",
+			width: 800,
+			height: 800,
+			borderless: true,
+			alwaysOnTop: true
+		});
 	
-			window.stage.color = 0x00010101;
-			@:privateAccess
-			window.stage.addEventListener("keyDown", FlxG.keys.onKeyDown);
-			@:privateAccess
-			window.stage.addEventListener("keyUp", FlxG.keys.onKeyUp);
-			#if linux
-			//testing stuff
-			window.stage.color = 0xff000000;
-			trace('BRAP');
-			#end
-			PlatformUtil.getWindowsTransparent();
+		window.stage.color = 0x00010101;
+		@:privateAccess
+		window.stage.addEventListener("keyDown", FlxG.keys.onKeyDown);
+		@:privateAccess
+		window.stage.addEventListener("keyUp", FlxG.keys.onKeyUp);
+		#if linux
+		//testing stuff
+		window.stage.color = 0xff000000;
+		trace('BRAP');
+		#end
+		PlatformUtil.getWindowsTransparent();
 
-			preDadPos = dad.getPosition();
-			dad.x = 0;
-			dad.y = 0;
+		preDadPos = dad.getPosition();
+		dad.x = 0;
+		dad.y = 0;
 	
-			FlxG.mouse.useSystemCursor = true;
+		FlxG.mouse.useSystemCursor = true;
 	
-			generateWindowSprite();
+		generateWindowSprite();
 	
-			expungedScroll.scrollRect = new Rectangle();
-			window.stage.addChild(expungedScroll);
-			expungedScroll.addChild(expungedSpr);
-			expungedScroll.scaleX = 0.5;
-			expungedScroll.scaleY = 0.5;
+		expungedScroll.scrollRect = new Rectangle();
+		window.stage.addChild(expungedScroll);
+		expungedScroll.addChild(expungedSpr);
+		expungedScroll.scaleX = 0.5;
+		expungedScroll.scaleY = 0.5;
 	
-			expungedOffset.x = Application.current.window.x;
-			expungedOffset.y = Application.current.window.y;
+		expungedOffset.x = Application.current.window.x;
+		expungedOffset.y = Application.current.window.y;
 	
-			dad.visible = false;
+		dad.visible = false;
 	
-			var windowX = Application.current.window.x + ((Application.current.window.display.bounds.width) * 0.140625);
+		var windowX = Application.current.window.x + ((Application.current.window.display.bounds.width) * 0.140625);
 	
-			windowSteadyX = windowX;
+		windowSteadyX = windowX;
 	
-			FlxTween.tween(expungedOffset, {x: -20}, 2 / playbackRate, {ease: FlxEase.elasticOut});
+		FlxTween.tween(expungedOffset, {x: -20}, 2 / playbackRate, {ease: FlxEase.elasticOut});
 	
-			FlxTween.tween(Application.current.window, {x: windowX}, 2.2 / playbackRate, {
-				ease: FlxEase.elasticOut,
-				onComplete: function(tween:FlxTween)
-				{
-					ExpungedWindowCenterPos.x = expungedOffset.x;
-					ExpungedWindowCenterPos.y = expungedOffset.y;
-					expungedMoving = false;
-				}
-			});
-	
-			Application.current.window.onClose.add(function()
+		FlxTween.tween(Application.current.window, {x:windowX}, 2.2 / playbackRate, {
+			ease: FlxEase.elasticOut,
+			onComplete: function(tween:FlxTween)
 			{
-				if (window != null)
-				{
-					window.close();
-				}
-			}, false, 100);
+				ExpungedWindowCenterPos.x = expungedOffset.x;
+				ExpungedWindowCenterPos.y = expungedOffset.y;
+				expungedMoving = false;
+			}
+		});
 	
-			Application.current.window.focus();
-			expungedWindowMode = true;
-	
-			@:privateAccess
-			lastFrame = dad._frame;
-		}
-	
-		function generateWindowSprite()
+		Application.current.window.onClose.add(function()
 		{
-			var m = new Matrix();
-			m.translate(0, 100);
-			expungedSpr.graphics.beginBitmapFill(dad.pixels, m);
-			expungedSpr.graphics.drawRect(0, 0, dad.pixels.width, dad.pixels.height);
-			expungedSpr.graphics.endFill();
-		}
+			if (window != null)
+			{
+				window.close();
+			}
+		}, false, 100);
+	
+		Application.current.window.focus();
+		expungedWindowMode = true;
+	
+		@:privateAccess
+		lastFrame = dad._frame;
+	}
+	
+	function generateWindowSprite()
+	{
+		var m = new Matrix();
+		m.translate(0, 100);
+		expungedSpr.graphics.beginBitmapFill(dad.pixels, m);
+		expungedSpr.graphics.drawRect(0, 0, dad.pixels.width, dad.pixels.height);
+		expungedSpr.graphics.endFill();
+	}
 
 	var curLight:Int = -1;
 	var curLightEvent:Int = -1;

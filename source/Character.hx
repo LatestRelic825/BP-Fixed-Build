@@ -345,25 +345,21 @@ class Character extends FlxSprite
 					playAnim('danceLeft' + idleSuffix);
 			}
 			else if(animation.getByName('idle' + idleSuffix) != null) {
-					playAnim('idle' + idleSuffix);
-			}
-		}
-	}
-	public function dance2()
-	{
-		if (!debugMode && !skipDance && !specialAnim)
-		{
-			if(danceIdle)
-			{
-				danced = !danced;
-
-				if (danced)
-					playAnim('danceRight' + idleSuffix);
+				if (animation.curAnim != null)
+				{
+					if (animation.curAnim.looped && (animation.curAnim.name == animation.getByName('idle' + idleSuffix).name))
+						{
+							playAnim('idle' + idleSuffix);
+						}
+					else
+					{
+						playAnim('idle' + idleSuffix, true);
+					}
+				}
 				else
-					playAnim('danceLeft' + idleSuffix);
-			}
-			else if(animation.getByName('idle' + idleSuffix) != null) {
+				{
 					playAnim('idle' + idleSuffix, true);
+				}
 			}
 		}
 	}
