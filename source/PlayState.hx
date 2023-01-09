@@ -2456,14 +2456,6 @@ class PlayState extends MusicBeatState
 				dave = new Character(0, 300, 'dave-splitathon');
 				gf.visible = true;
 			}
-
-		if(SONG.song.toLowerCase() == 'platonic')
-			{
-				bambi = new Character(-100, 575, 'bambi');
-				dave = new Character(0, 500, 'tristan');
-				boyfriend2 = new Boyfriend(650, 200, 'babman-player');
-			}
-
 		if(SONG.song.toLowerCase() == 'rascal')
 			{
 				dave = new Character(0, 100, 'dave-splitathon');
@@ -2576,7 +2568,7 @@ class PlayState extends MusicBeatState
 		doof.scrollFactor.set();
 		switch (curSong.toLowerCase())
 		{
-			case 'roundabout' | 'upheaval-teaser' | 'reheated' | 'lacuna' | 'antagonism-poip-part' | 'dethroned' | 'crimson corridor' | 'demise pt 1' | 'demise pt 2' | 'demise-pt-1' | 'demise-pt-2' | 'platonic':
+			case 'roundabout' | 'upheaval-teaser' | 'reheated' | 'lacuna' | 'antagonism-poip-part' | 'dethroned' | 'crimson corridor' | 'demise pt 1' | 'demise pt 2' | 'demise-pt-1' | 'demise-pt-2':
 				doof.finishThing = startSongNoCountDown;
 			default:
 				doof.finishThing = startCountdown;
@@ -3221,7 +3213,7 @@ class PlayState extends MusicBeatState
 						case 'maze':
 							startVideoDIALOGUE('bambiCutscene'); 
 
-						case 'roundabout' | 'upheaval-teaser' | 'reheated' | 'lacuna' | 'antagonism-poip-part' | 'dethroned' | 'crimson corridor' | 'demise pt 1' | 'demise pt 2' | 'demise-pt-1' | 'demise-pt-2' | 'platonic':
+						case 'roundabout' | 'upheaval-teaser' | 'reheated' | 'lacuna' | 'antagonism-poip-part' | 'dethroned' | 'crimson corridor' | 'demise pt 1' | 'demise pt 2' | 'demise-pt-1' | 'demise-pt-2':
 							startSongNoCountDown(); // replace this l8 when there's dialogue
 
 					default:
@@ -3231,7 +3223,7 @@ class PlayState extends MusicBeatState
 		} else {
 			switch (curSong.toLowerCase())
 			{
-				case 'roundabout' | 'upheaval-teaser' | 'reheated' | 'lacuna' | 'antagonism-poip-part' | 'dethroned' | 'crimson corridor' | 'demise pt 1' | 'demise pt 2' | 'demise-pt-1' | 'demise-pt-2' | 'platonic':
+				case 'roundabout' | 'upheaval-teaser' | 'reheated' | 'lacuna' | 'antagonism-poip-part' | 'dethroned' | 'crimson corridor' | 'demise pt 1' | 'demise pt 2' | 'demise-pt-1' | 'demise-pt-2':
 					startSongNoCountDown();
 				default:
 		         	startCountdown();
@@ -3730,7 +3722,7 @@ class PlayState extends MusicBeatState
 				endSong();
 			} else {
 				switch (curSong.toLowerCase()) {
-					case 'roundabout' | 'upheaval-teaser' | 'reheated' | 'lacuna' | 'antagonism-poip-part' | 'dethroned' | 'crimson corridor' | 'demise pt 1' | 'demise pt 2' | 'demise-pt-1' | 'demise-pt-2' | 'platonic':
+					case 'roundabout' | 'upheaval-teaser' | 'reheated' | 'lacuna' | 'antagonism-poip-part' | 'dethroned' | 'crimson corridor' | 'demise pt 1' | 'demise pt 2' | 'demise-pt-1' | 'demise-pt-2':
 						startSongNoCountDown();
 					default:
 			    		startCountdown();
@@ -3835,7 +3827,7 @@ class PlayState extends MusicBeatState
 				}
 				else
 					switch (curSong.toLowerCase()) {
-					case 'roundabout' | 'upheaval-teaser' | 'reheated' | 'lacuna' | 'antagonism-poip-part' | 'dethroned' | 'crimson corridor' | 'demise pt 1' | 'demise pt 2' | 'demise-pt-1' | 'demise-pt-2' | 'platonic':
+					case 'roundabout' | 'upheaval-teaser' | 'reheated' | 'lacuna' | 'antagonism-poip-part' | 'dethroned' | 'crimson corridor' | 'demise pt 1' | 'demise pt 2' | 'demise-pt-1' | 'demise-pt-2':
 						startSongNoCountDown();
 					default:
 			    		startCountdown();
@@ -6526,89 +6518,6 @@ class PlayState extends MusicBeatState
 					FlxTween.tween(dave, {"scale.x": 1, "scale.y": 1}, 7.5, {ease: FlxEase.cubeOut});
 				case 3600:
 					FlxTween.tween(blackScreen2, {alpha:1}, 52.8);
-			}
-		case 'platonic':
-			switch(curStep)
-			{
-				case 0:
-					add(blackScreen2);
-					blackScreen2.alpha = 0;
-					dave.alpha = 0;
-					bambi.alpha = 0;
-					boyfriend2.alpha = 0;
-				case 1:
-					camZooming = true;
-				case 912:
-					dave.alpha = 1;
-					dave.x += 70;
-					camOther.flash(FlxColor.BLACK, 1.5);
-				case 1904:
-					dave.alpha = 0;
-					boyfriend2.alpha = 1;
-					boyfriend.x += 100;
-					camOther.flash(FlxColor.BLACK, 1.5);
-					boyfriendCanMiss = false;
-					isboyfriend2 = true;
-					iconP1.changeIcon('Babman');
-					healthBar.createFilledBar(FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]),
-		    		FlxColor.WHITE);
-					healthBar.updateBar();
-				case 2624:
-					FlxTween.tween(dad, {alpha:0}, 0.35);
-				case 2704:
-					dad.alpha = 1;
-					boyfriend2.alpha = 0;
-					boyfriend.x = 770;
-					camOther.flash(FlxColor.BLACK, 1.5);
-					boyfriendCanMiss = true;
-					isboyfriend2 = false;
-					iconP1.changeIcon(boyfriend.healthIcon);
-					reloadHealthBarColors();
-				case 3280:
-					boyfriend2.alpha = 1;
-					boyfriend.x += 100;
-					camOther.flash(FlxColor.BLACK, 1.5);
-					boyfriendCanMiss = false;
-					isboyfriend2 = true;
-					iconP1.changeIcon('Babman');
-					healthBar.createFilledBar(FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]),
-		    		FlxColor.WHITE);
-					healthBar.updateBar();
-				case 3980:
-					FlxTween.tween(FlxG.camera, {angle: 360}, 0.3);
-					FlxTween.tween(camHUD, {angle: 360}, 0.3);
-				case 4044:
-					FlxTween.tween(FlxG.camera, {angle: 0}, 0.3);
-					FlxTween.tween(camHUD, {angle: 0}, 0.3);
-				case 4368:
-					boyfriend2.alpha = 0;
-					boyfriend.x = 770;
-					dad.alpha = 0;
-					camOther.flash(FlxColor.BLACK, 1.5);
-					boyfriendCanMiss = true;
-					isboyfriend2 = false;
-					iconP1.changeIcon(boyfriend.healthIcon);
-					reloadHealthBarColors();
-				case 4624:
-					dave.alpha = 1;
-					camOther.flash(FlxColor.BLACK, 4);
-				case 4880:
-					dad.alpha = 1;
-					camOther.flash(FlxColor.BLACK, 1.5);
-				case 5008:
-					bambi.alpha = 1;
-					camOther.flash(FlxColor.BLACK, 1.5);
-				case 5519:
-					camZoomSnap = true;
-				case 5775:
-					camZoomHalfSnap = true;
-					camZoomSnap = false;
-				case 5903:
-					camZoomHalfSnap = false;
-				case 5904:
-					FlxTween.tween(blackScreen2, {alpha:1}, 25 / playbackRate);
-				case 6031:
-					camZooming = false;
 			}
 		case 'soulless 5':
 			switch (curBeat)
@@ -10836,12 +10745,6 @@ class PlayState extends MusicBeatState
 	
 		switch (SONG.song.toLowerCase())
 		{
-			case 'platonic':
-				switch (curStep)
-				{
-					case 120:
-						daCountDownMidSong();
-				}
 			case 'furiosity':
 				switch (curStep)
 				{
